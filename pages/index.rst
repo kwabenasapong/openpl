@@ -1,0 +1,407 @@
+.. title: index
+.. slug: index
+.. date: 2015-06-27 00:46:57 UTC
+.. tags: 
+.. link: 
+.. description: 
+.. type: text
+
+.. raw:: html
+
+        <div id="banner" class="banner">
+            <div class="banner-image"></div>
+            <div class="banner-caption">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+                            <h1 class="text-center">Empower Your <span>Church</span></h1>
+                            <p class="lead text-center">Experience the power of open source in your church with worship presentation software designed to fit how you want to run your service. Fast, flexible and easy to use, you will have your service up and running in a few minutes. These features and a whole lot more at a price that can't be beat.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 id="about" class="title text-center">About <span>OpenLP</span></h1>
+                        <p class="lead text-center">Free Worship Presentation Software for your Church.</p>
+                        <div class="space"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="/assets/images/section-image-1.png" alt="">
+                                <div class="space"></div>
+                            </div>
+                            <div class="col-md-6">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi adipisci illo, voluptatum ipsam fuga error commodi architecto, laudantium culpa tenetur at id, beatae placeat deserunt iure quas voluptas fugit eveniet.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo ducimus explicabo quibusdam temporibus deserunt doloremque pariatur ea, animi a. Delectus similique atque eligendi, enim vel reiciendis deleniti neque aliquid, sit?</p>
+                                <ul class="list-unstyled">
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Cross platform between Linux, Windows, OS X and FreeBSD</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Display songs, Bible verses, presentations, images and more</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Control OpenLP remotely via the Android app or mobile web browser</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Quickly and easily import songs from other popular presentation packages</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Easy enough to use to get up and running in less than 10 minutes</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="space"></div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2>Perfect for small churches</h2>
+                                <p>Your church was just given a data projector and you want to use it to display the lyrics of songs. You were thinking of using PowerPoint, but after a test found it very unwieldy. Then someone suggested that you look at commercial church presentation software, but when you looked at the price tag, you knew your church could not afford that kind of money. You begin to wonder if you should just go back to hymn books and just leave projection of song words to bigger churches who can afford to do it.</p>
+                                <p>Hold onto your dreams, because OpenLP is free. And it's not just a below-standard freebie thing, it's a powerful, elegant open source application. What does that mean? It means that the code that the developers write is available to you. But more than that, it means that OpenLP is, and always will be, free. Free to download, free to use, free to give to all your friends. Unlimited freedom, like the freedom we find in Christ.</p>
+                            </div>
+                            <div class="col-md-6">
+                                <h2>Feature-rich for big churches</h2>
+                                <p>Money isn't a problem for your church, but you've been using a really old program that someone installed a few years ago, and now it is showing its age. You can always upgrade, in the hopes that those bugs you've had to live with are fixed, but will it have all the new features you want?</p>
+                                <p>OpenLP is designed to bring you maximum features with minimum effort. Not only that, but OpenLP can also import songs from many other presentation programs, ensuring a smooth transition from your old package to a new, up-to-date one.</p>
+                                <p>You'll also get upgrades along the way which fix your bugs and introduce new features. The developers are open and friendly, and welcome input from their users, so you know your feedback is not falling on deaf ears. Having a say in what happens has never been easier!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section translucent-bg bg-image-1 blue">
+            <div class="container object-non-visible" data-animation-effect="fadeIn">
+                <h1 id="features"  class="text-center title">Features</h1>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="media">
+                            <div class="media-body text-right">
+                                <h4 class="media-heading">Songs</h4>
+                                <p>Import songs from a variety of sources, tag verse types, set ordering of verses, add formatting, manage authors, search through songs and even add backing tracks to songs for when your band is on holiday.</p>
+                            </div>
+                            <div class="media-right">
+                                <i class="fa fw fa-music"></i>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body text-right">
+                                <h4 class="media-heading">Bibles</h4>
+                                <p>Import Bibles from a number of formats, or even download a few verses you need from a Bible site, display verses in varying formats, easily search verses by scripture reference (e.g. Luke 12:10-17) or by phrase.</p>
+                            </div>
+                            <div class="media-right">
+                                <i class="fa fa-fw fa-book"></i>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body text-right">
+                                <h4 class="media-heading">Presentations</h4>
+                                <p>Integration with PowerPoint, PowerPoint Viewer and LibreOffice Impress on Windows and LibreOffice Impress on Linux/FreeBSD means that you can import your presentations into OpenLP and control them via OpenLP.</p>
+                            </div>
+                            <div class="media-right">
+                                <i class="fa fa-desktop"></i>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-body text-right">
+                                <h4 class="media-heading">Pictures</h4>
+                                <p>Import pictures into OpenLP and organise them into folders. Create slide-shows by simply selecting multiple songs and drag-and-dropping the selection into the service, with auto-forwarding.</p>
+                            </div>
+                            <div class="media-right">
+                                <i class="fa fa-picture-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space visible-xs"></div>
+                    <div class="col-sm-6">
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fa fa-video-camera"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Media</h4>
+                                <p>Integration with VLC means that you can display almost any video file and play almost any audio file in OpenLP. Using VLC means that a wide variety of formats are supported.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fa fa-file-text"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Custom Slides</h4>
+                                <p>Store your liturgy, announcements, or other custom slides in OpenLP. Just like a song, but with less structure, custom slides can also contain formatting and can be set to loop.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fa fa-android"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Android Remote</h4>
+                                <p>Control OpenLP remotely using any tablet or phone running Android using our App in the Google Play Store. Search, go live, control slides, and more. Also accessible via any phone's web browser.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <i class="fa fa-play-circle"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Stage View</h4>
+                                <p>Built-in stage view accessible from any device with a web browser. Use any device on the local network as your stage monitor, meaning unlimited stage monitors without any extra hardware constraints.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default-bg space blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="text-center">Get the Android Remote &nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=org.openlp.android2"><img alt="Android app on Google Play" src="https://developer.android.com/images/brand/en_app_rgb_wo_45.png"></a></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="container object-non-visible" data-animation-effect="fadeIn">
+                <h1 class="text-center title" id="downloads">Downloads</h1>
+                <div class="separator"></div>
+                <p class="lead text-center">Select your operating system, and then click on the link below the selector to download OpenLP for your platform.</p>
+                <div class="space"></div>
+                <div class="row form-group product-chooser">
+                    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2 col-md-offset-2 col-lg-offset-2">
+                        <div class="product-chooser-item clearfix" data-target="windows">
+                            <div class="text-center"><i class="fa fa-windows fa-5x"></i></div>
+                            <div class="text-center"><span class="title">Windows 7<br>or higher</span></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                        <div class="product-chooser-item clearfix" data-target="macosx">
+                            <div class="text-center"><i class="fa fa-apple fa-5x"></i></div>
+                            <div class="text-center"><span class="title">Mac OS X 10.8<br>or higher</span></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                        <div class="product-chooser-item clearfix" data-target="linux">
+                            <div class="text-center"><i class="fa fa-linux fa-5x"></i></div>
+                            <div class="text-center"><span class="title">Linux<br>and FreeBSD</span></div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+                        <div class="product-chooser-item clearfix" data-target="source">
+                            <div class="text-center"><i class="fa fa-code fa-5x"></i></div>
+                            <div class="text-center"><span class="title">Source Code<br>for developers</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row space" id="download-section">
+                    <div class="well col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
+                        <div class="intro">
+                            <p>Select a platform from the options above</p>
+                        </div>
+                        <div class="windows hidden">
+                            <h4>OpenLP 2.1.5 for Windows 7 and higher</h4>
+                            <p>OpenLP-2.1.5-setup.exe</p>
+                            <p>
+                                <a href="download.openlp.org/2.1.5/OpenLP-2.1.5-setup.exe" class="btn btn-success"><i class="fa fa-fw fa-download"></i> Direct Download</a>
+                                <a href="download.openlp.org/2.1.5/OpenLP-2.1.5-setup.exe.torrent" class="btn btn-warning"><i class="fa fa-fw fa-cloud-download"></i> BitTorrent</a>
+                                <a href="download.openlp.org/2.1.5/OpenLP-2.1.5-setup.exe.torrent" class="btn btn-danger"><i class="fa fa-fw fa-magnet fa-flip-vertical"></i> Magnet</a>
+                            </p>
+                        </div>
+                        <div class="macosx hidden">
+                            <h4>OpenLP for Mac OS X 10.8 and higher</h4>
+                            <p>OpenLP-2.1.5.dmg</p>
+                            <p>
+                                <a href="download.openlp.org/2.1.5/OpenLP-2.1.5.dmg" class="btn btn-success"><i class="fa fa-fw fa-download"></i> Direct Download</a>
+                                <a href="download.openlp.org/2.1.5/OpenLP-2.1.5.dmg.torrent" class="btn btn-warning"><i class="fa fa-fw fa-cloud-download"></i> BitTorrent</a>
+                                <a href="download.openlp.org/2.1.5/OpenLP-2.1.5.dmg.torrent" class="btn btn-danger"><i class="fa fa-fw fa-magnet fa-flip-vertical"></i> Magnet</a>
+                            </p>
+                        </div>
+                        <div class="linux hidden">
+                            <h4>Linux/FreeBSD Downloads</h4>
+                            <p>Select a distribution</p>
+                            <p>
+                                <a href="https://launchpad.net/~openlp-core/+archive/release" class="btn btn-ubuntu"><i class="fa fa-fw fa-external-link"></i> Ubuntu</a>
+                                <a href="https://admin.fedoraproject.org/pkgdb/package/OpenLP/" class="btn btn-fedora"><i class="fa fa-fw fa-external-link"></i> Fedora</a>
+                                <a href="https://packages.debian.org/openlp" class="btn btn-debian"><i class="fa fa-fw fa-external-link"></i> Debian</a>
+                                <a href="https://aur.archlinux.org/packages/openlp/" class="btn btn-arch"><i class="fa fa-fw fa-external-link"></i> Arch</a>
+                                <a href="http://www.freshports.org/multimedia/py-openlp" class="btn btn-freebsd"><i class="fa fa-fw fa-external-link"></i> FreeBSD</a>
+                            </p>
+                        </div>
+                        <div class="source hidden">
+                            <h4>OpenLP 2.1.5 Source Code</h4>
+                            <p>OpenLP-2.1.5.tar.gz</p>
+                            <p>
+                                <a href="download.openlp.org/2.1.5/OpenLP-2.1.5.tar.gz" class="btn btn-success"><i class="fa fa-fw fa-download"></i> Direct Download</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space"></div>
+                <p class="lead text-center">Looking for nightlies and development versions? They are now found on our <a href="https://openlp.io/">developer site</a>.</p>
+            </div>
+        </div>
+
+        <div class="section translucent-bg bg-image-2 pb-clear">
+            <div class="container object-non-visible" data-animation-effect="fadeIn">
+                <h1 id="testimonials" class="title text-center">Testimonials</h1>
+                <div class="space"></div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="media testimonial">
+                            <div class="media-left">
+                                <i class="fa fa-fw fa-quote-left fa-3x fa-lg"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Kudos to OpenLP!</h3>
+                                <blockquote>
+                                    <p>At our Bible college, we decided to switch to OpenLP because it was free. We found it to be feature-rich and easy to use. It's also constantly improving.</p>
+                                    <footer>David Le Roux <cite title="George Whitefield College, Cape Town">George Whitefield College, Cape Town</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media testimonial">
+                            <div class="media-left">
+                                <i class="fa fa-fw fa-quote-left fa-3x fa-lg"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Thanks!</h3>
+                                <blockquote>
+                                    <p>Hello, I love your software! Praise the Lord. The fact that you all are willing to provide this for free is amazing.</p>
+                                    <footer>Matt</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media testimonial">
+                            <div class="media-left">
+                                <i class="fa fa-fw fa-quote-left fa-3x fa-lg"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Good Work!</h3>
+                                <blockquote>
+                                    <p>OpenLP has made a tremendous positive impact on our services. The singing has increased tenfold as even those with poor eyesight can clearly see the onscreen lyrics.</p>
+                                    <footer>H. Mullan</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="media testimonial">
+                            <div class="media-left">
+                                <i class="fa fa-fw fa-quote-left fa-3x fa-lg"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Fantastic Software!</h3>
+                                <blockquote>
+                                    <p>I have been using OpenLP for a couple of years and I found it very easy to navigate and despite never having used this type of software before was able to get a service up and running in a couple of minutes once I had installed the program.</p>
+                                    <footer>Peter G.</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media testimonial">
+                            <div class="media-left">
+                                <i class="fa fa-fw fa-quote-left fa-3x fa-lg"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">A Huge Blessing!</h3>
+                                <blockquote>
+                                    <p>Just wanted to drop you a line to say thank you for a great product. I'm traveling around to small churches helping them upgrade their media environments. With little or no budgets, OpenLP has been a great help. I wish I could capture the look on a pastor's face when I tell him it's a free software.</p>
+                                    <footer>Brian</footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="media testimonial">
+                            <div class="media-left">
+                                <i class="fa fa-fw fa-quote-left fa-3x fa-lg"></i>
+                            </div>
+                            <div class="media-body">
+                                <h3 class="media-heading">Great Product!</h3>
+                                <blockquote>
+                                    <p>Sunday morning I set the up projector, gave a 10 minute lesson to the young lady who does our overheads. Everything went smoothly. She was so excited, the congregation thought it was great, our priest was ecstatic.</p>
+                                    <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="translucent-bg blue">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h1 class="text-center">Used by over 1000 churches!</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="footer section">
+                <div class="container">
+                    <h1 class="title text-center" id="support">Support</h1>
+                    <div class="space"></div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="footer-content">
+                                <p class="large">OpenLP is not developed by a company, but by a group of volunteers who dedicate part of their spare time to developing this application. Please be patient if we do not answer immediately.</p>
+                                <ul class="list-icons">
+                                    <li><i class="fa fa-book pr-10"></i> Manual: <a href="http://manual.openlp.org/">manual.openlp.org</a></li>
+                                    <li><i class="fa fa-pencil-square-o pr-10"></i> Wiki: <a href="http://wiki.openlp.org/">wiki.openlp.org</a></li>
+                                    <li><i class="fa fa-envelope-o pr-10"></i> E-mail: support(at)openlp.org</li>
+                                    <li><i class="fa fa-comments pr-10"></i> IRC Channel: <a href="http://webchat.freenode.net/?randomnick=1&amp;channels=openlp&amp;prompt=1&amp;uio=d4">#openlp on Freenode.net</a></li>
+                                    <li><i class="fa fa-wrench pr-10"></i> Developer Central: <a href="https://openlp.io/">openlp.io</a></li>
+                                </ul>
+                                <ul class="social-links">
+                                    <li class="googleplus"><a target="_blank" href="https://plus.google.com/b/117120749304988900189/117120749304988900189"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="facebook"><a target="_blank" href="https://www.facebook.com/openlp"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter"><a target="_blank" href="https://twitter.com/openlp"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCUFB_m4mbkUKROrbO6CxJtQ"><i class="fa fa-youtube"></i></a></li>
+                                    <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/grp/home?gid=96031"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="footer-content">
+                                <form role="form" id="footer-form">
+                                    <div class="form-group has-feedback">
+                                        <label class="sr-only" for="name2">Name</label>
+                                        <input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+                                        <i class="fa fa-user form-control-feedback"></i>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <label class="sr-only" for="email2">Email address</label>
+                                        <input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
+                                        <i class="fa fa-envelope form-control-feedback"></i>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <label class="sr-only" for="message2">Message</label>
+                                        <textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
+                                        <i class="fa fa-pencil form-control-feedback"></i>
+                                    </div>
+                                    <input type="submit" value="Send" class="btn btn-default">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center">Copyright © 2004-2015 OpenLP Developers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
