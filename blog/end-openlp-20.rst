@@ -1,6 +1,6 @@
-.. title: End of OpenLP 2.0
+.. title: The End of OpenLP 2.0
 .. slug: end-openlp-20
-.. date: 2014-06-29 13:56:00 UTC
+.. date: 2014-06-29 13:06:10 UTC
 .. tags:
 .. link:
 .. description:
