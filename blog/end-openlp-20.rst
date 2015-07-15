@@ -1,14 +1,11 @@
 .. title: End of OpenLP 2.0
-.. slug: end-openlp-20
+.. slug: 2014/06/29/end-openlp-20
 .. date: 2014-06-29 13:56:00 UTC
 .. tags:
 .. link:
 .. description:
 .. type: text
-
-.. image:: http://openlp.org/files/u2/end_of_the_line.png
-   :width: 100%
-   :alt: End of the Line
+.. previewimage: /cover-images/end-of-the-line.jpg
 
 Yes, you read that right, it's the end of OpenLP 2.0.
 
@@ -36,5 +33,5 @@ The next release of OpenLP will be version 2.1.1, which will be the first beta v
 
 [ Image Credit: `End of the Line by Kevin Gessner`_ ]
 
-.. _Download: /download
+.. _Download: /#download
 .. _End of the Line by Kevin Gessner: https://www.flickr.com/photos/kevingessner/3540367626/

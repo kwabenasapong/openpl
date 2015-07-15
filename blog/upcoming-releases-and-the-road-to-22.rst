@@ -1,13 +1,11 @@
 .. title: Upcoming Releases and the Road to 2.2
-.. slug: upcoming-releases-and-the-road-to-22
+.. slug: 2015/06/27/upcoming-releases-and-the-road-to-22
 .. date: 2015-06-27 00:23:37 UTC
 .. tags:
 .. link:
 .. description:
 .. type: text
-
-.. image:: http://openlp.org/files/u2/road_ahead.png
-   :width: 100%
+.. previewimage: /cover-images/upcoming-releases-and-the-road-to-22.jpg
 
 OpenLP 2.0.4 has been out for 4 months now, and while there don't seem to be any major issues with it, that doesn't mean
 there are no more bugs. With this in mind we're going to be releasing version 2.0.5 at the end of this month, June. This
@@ -29,7 +27,6 @@ So while you won't find all the features you want in OpenLP 2.2, we hope to be a
 you sooner in future because we're not spending forever getting all the features developed while you're waiting for a
 huge release to happen.
 
-[Image credit: `The Garden Route in South Africa`_ by `stringer_bel`_ ]
+[ Image credit: `Road to Drakensberg, South Africa`_ by Diriye Amey ]
 
-.. _The Garden Route in South Africa: https://www.flickr.com/photos/belsymington/4597668741/
-.. _stringer_bel: https://www.flickr.com/photos/belsymington/
+.. _Road to Drakensberg, South Africa: https://www.flickr.com/photos/diriye/18768240571/

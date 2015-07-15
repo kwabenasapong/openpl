@@ -69,20 +69,41 @@ ${template_hooks['extra_head']()}
                 </div>
             </div>
         </div>
+% elif post is not UNDEFINED and post:
+        <div class="post-heading" style="background-image: url(${post.meta('previewimage')})">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <h1>${post.meta('title')}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
 % endif
         <div class="container" id="content">
-            <div class="space"></div>
             <div class="body-content">
                 <div class="row">
                     ${template_hooks['page_header']()}
                     <%block name="content"></%block>
                 </div>
-                <footer>
+                <!-- footer>
                     ${content_footer}
                     ${template_hooks['page_footer']()}
-                </footer>
+                </footer -->
             </div>
         </div>
+        <footer id="footer">
+            <div class="space"></div>
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center">Copyright &copy; 2004-2015 OpenLP Developers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
 % endif
 
 ${base.late_load_js()}

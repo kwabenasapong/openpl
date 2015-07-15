@@ -29,7 +29,7 @@
 
 <%def name="html_post_header()">
     <header>
-        ${html_title()}
+        <!-- ${html_title()} -->
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">${post.author()}</span></p>
             <p class="dateline"><a href="${post.permalink()}" rel="bookmark"><time class="published dt-published" datetime="${post.date.isoformat()}" itemprop="datePublished" title="${post.formatted_date(date_format)}">${post.formatted_date(date_format)}</time></a></p>
