@@ -19,6 +19,10 @@ File Description: Place here your custom CSS styles
     font-size: 3em;
 }
 
+iframe {
+    border: 0;
+}
+
 div.blog-heading {
     background: transparent url(/assets/images/blog-heading-2.jpg) no-repeat center center scroll;
     -webkit-background-size:cover;
