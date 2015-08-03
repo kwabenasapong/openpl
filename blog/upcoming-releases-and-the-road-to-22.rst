@@ -1,6 +1,6 @@
 .. title: Upcoming Releases and the Road to 2.2
-.. slug: 2015/06/27/upcoming-releases-and-the-road-to-22
-.. date: 2015-06-27 00:23:37 UTC
+.. slug: 2014/06/13/upcoming-releases-and-the-road-to-22
+.. date: 2014-06-13 18:18:37 UTC
 .. tags:
 .. link:
 .. description:
