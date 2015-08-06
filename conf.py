@@ -265,6 +265,8 @@ URL_TYPE = 'full_path'
 # often removed or replaced as well.
 # SLUG_TAG_PATH = True
 
+WRITE_TAG_CLOUD = False
+
 # A list of redirection tuples, [("foo/from.html", "/bar/to.html")].
 #
 # A HTML file will be created in output/foo/from.html that redirects
