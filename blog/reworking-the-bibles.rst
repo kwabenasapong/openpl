@@ -19,27 +19,29 @@ book from the abbreviation table (which has become a fully-fledged book
 table) and use that for the lookup.
 
 So, for those interested, here are the create statements (SQLite) for
-the tables in the new format Bible files.
+the tables in the new format Bible files:
 
-| **CREATE** **TABLE** testament (
-|   id **INTEGER** **PRIMARY** **KEY** **NOT** **NULL**,
-|   name **VARCHAR**\ (30) **NOT** **NULL
-**)
+.. code:: SQL
 
-| **CREATE** **TABLE** book (
-|   id **INTEGER** **PRIMARY** **KEY** **NOT** **NULL**,
-|   testament\_id **INTEGER** **NOT** **NULL** **DEFAULT** 1,
-|   name **VARCHAR**\ (30) **NOT** **NULL**,
-|   abbreviation **VARCHAR**\ (5)
-| )
+    CREATE TABLE testament (
+        id INTEGER PRIMARY KEY NOT NULL,
+        name VARCHAR(30) NOT NULL
+    )
 
-| **CREATE** **TABLE** verse (
-|   id **INTEGER** **PRIMARY** **KEY** **NOT** **NULL**,
-|   book\_id **INTEGER** **NOT** **NULL** **DEFAULT** 1,
-|   chapter **INTEGER** **NOT** **NULL** **DEFAULT** 1,
-|   verse **INTEGER** **NOT** **NULL** **DEFAULT** 1,
-|   text **BLOB
-**)
+    CREATE TABLE book (
+       id INTEGER PRIMARY KEY NOT NULL,
+       testament_id INTEGER NOT NULL DEFAULT 1,
+       name VARCHAR(30) NOT NULL,
+       abbreviation VARCHAR(5)
+    )
+
+    CREATE TABLE verse (
+       id INTEGER PRIMARY KEY NOT NULL,
+       book_id INTEGER NOT NULL DEFAULT 1,
+       chapter INTEGER NOT NULL DEFAULT 1,
+       verse INTEGER NOT NULL DEFAULT 1,
+       text BLOB
+    )
 
 What's great about this new format is that if you are Spanish, you can
 have all the names of the books in Spanish! So not only do you get

@@ -11,7 +11,7 @@ pretty nicely. It's been a long time, and a long process (hectic
 personal schedules leave little time for pet projects like openlp.org),
 but we're finally nearing 1.0.
 
-| BUT in order for us to have a really nicely finished and polished
+BUT in order for us to have a really nicely finished and polished
 product, we need documentation. We're looking for people who are willing
 to put aside a couple of hours a week (say about 2 - 4) and, in a
 collaborative manner, put together a user guide second to none. If

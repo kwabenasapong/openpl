@@ -31,7 +31,7 @@ application as well.
 I'm very pleased with the progress we have made so far, and Derek is
 doing a fantastic job, so well done to him!
 
-| Oh, and as usual, we're always on the look out for helping hands. We
+Oh, and as usual, we're always on the look out for helping hands. We
 need documentation done and we need a few more people in our support
 team, and of course more developers are always welcome. Please use the
 Contact Us page to let us know.

@@ -4,7 +4,7 @@
 .. tags: 
 .. description: 
 
-| I am proud to announce the release of Release Candidate 1. This is the
+I am proud to announce the release of Release Candidate 1. This is the
 first in our release candidate series. Once we are satisfied that no
 more bugs exist in openlp.org, we will release the final version of 1.0.
 Remember to post your bug reports in the forum topic.

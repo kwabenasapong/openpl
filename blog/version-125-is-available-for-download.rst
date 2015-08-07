@@ -6,8 +6,7 @@
 
 This is a fairly minor update release with the following changes:
 
-| - Prevent the creation of the ".lit" file in the openlp.exe directory
-which causes Windows 7 issues
-| - Correction made to the bundled PPT presentation
-| - Correction made to display configured Bible permission.
-| - Audio component updated due to bugfixes
+* Prevent the creation of the ".lit" file in the openlp.exe directory which causes Windows 7 issues
+* Correction made to the bundled PPT presentation
+* Correction made to display configured Bible permission.
+* Audio component updated due to bugfixes

@@ -12,7 +12,7 @@ openlp.org directory (on most systems it should be "C:\\Program
 Files\\openlp.org") and openlp.org should work fine. Let me know about
 this, I'm operating on hearsay.
 
-| On the other hand, I've moved to Linux full time now, Kubuntu 7.04
+On the other hand, I've moved to Linux full time now, Kubuntu 7.04
 (Feisty Fawn), as my main desktop, although I'll still have a Windows
 box around to develop openlp.org.  If you haven't looked at Linux yet, I
 would strongly recommend you do! Download a CD image from www.ubuntu.com
