@@ -1,8 +1,8 @@
 .. title: Advertisement Flyer
 .. slug: 2008/01/03/advertisement-flyer
 .. date: 2008-01-03 17:01:29 UTC
-.. tags: 
-.. description: 
+.. tags:
+.. description:
 
 I've busy with a few things marketing-related for openlp.org lately,
 including creating a flyer for people to print out and hand out, or put
@@ -21,6 +21,6 @@ it fits well inside the physical bounds of the pieceof paper. It's 3
 columns, so that you have 3 flyers per sheet of paper. Don't forget to
 flip the paper over and print the second page on the back!
 
-* `openlp.org-flyer-a4.pdf <http://openlp.org/files/openlp.org-flyer-a4.pdf>`_
-* `openlp.org-flyer.zip <http://openlp.org/files/openlp.org-flyer.zip>`_
+* `openlp.org-flyer-a4.pdf </files/openlp.org-flyer-a4.pdf>`_
+* `openlp.org-flyer.zip </files/openlp.org-flyer.zip>`_
 

@@ -20,4 +20,4 @@ months. He had to fix bugs in other packages and prod people to compile
 their packages properly, just so that he could get OpenLP into openSUSE.
 It really was quite a mission, but he did so anyways.
 
-.. |openSUSE| image:: http://openlp.org/files/u2/120px-Geeko-button-bling3.png
+.. |openSUSE| image:: /pictures/120px-Geeko-button-bling3.png

@@ -7,7 +7,7 @@
 |Debian - The Universal Operating System|
 
 Ladies and gentlemen, I am extremely happy to announce that as from
-today you can install OpenLP in `Debian Linux <http://debian.org/>`__
+today you can install OpenLP in `Debian Linux <http://debian.org/>`_
 (unstable) by simply typing in ``apt-get install openlp`` - yes, that's
 right, OpenLP is in the Debian repositories.
 
@@ -17,5 +17,5 @@ will filter down into distributions like Ubuntu, Kubuntu and Linux Mint
 in the near future. For instance, you should find OpenLP in Ubuntu 12.10
 when it comes out in October this year.
 
-.. |Debian - The Universal Operating System| image:: http://openlp.org/files/u2/debian_logo.png
+.. |Debian - The Universal Operating System| image:: /pictures/debian_logo.png
    :target: http://debian.org/

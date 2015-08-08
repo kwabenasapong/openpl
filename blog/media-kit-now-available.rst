@@ -27,10 +27,11 @@ As I gather more items, I'll add them to the media kit, so be on the
 look out for more updates, including more wallpapers and website badges.
 
 For Windows uers, and those who like zip files, you can download
-`OpenLP-MediaKit.zip <http://sourceforge.net/projects/openlp/files/mediakit/OpenLP-MediaKit.zip/download>`__,
+`OpenLP-MediaKit.zip <http://sourceforge.net/projects/openlp/files/mediakit/OpenLP-MediaKit.zip/download>`_,
 and those who prefer tarballs can download
-`OpenLP-MediaKit.tar.gz <http://sourceforge.net/projects/openlp/files/mediakit/OpenLP-MediaKit.tar.gz/download>`__.
+`OpenLP-MediaKit.tar.gz <http://sourceforge.net/projects/openlp/files/mediakit/OpenLP-MediaKit.tar.gz/download>`_.
 
 Now go forth and multiply!
 
-.. |OpenLP Media Kit| image:: http://openlp.org/files/u2/media_kit_newspapers.jpg
+.. |OpenLP Media Kit| image:: /pictures/media_kit_newspapers.jpg
+

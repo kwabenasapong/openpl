@@ -25,8 +25,8 @@ Here's the break down of the different translations we currently have:
 |Current Status of OpenLP Translations|
 
 Helping out with these translations is easy! Just go to
-`Transifex <https://www.transifex.com/>`__ and register, then go to the
-`OpenLP project page <https://www.transifex.com/projects/p/openlp/>`__,
+`Transifex <https://www.transifex.com/>`_ and register, then go to the
+`OpenLP project page <https://www.transifex.com/projects/p/openlp/>`_,
 and then request to join a language team. Once you've been added to that
 team you will receive an e-mail notification, and all you need to do is
 login and start translating! It couldn't be simpler!
@@ -34,5 +34,5 @@ login and start translating! It couldn't be simpler!
 **Translations need to be completed by midnight Tuesday, 23rd October
 UTC.**
 
-.. |Translate OpenLP| image:: http://openlp.org/files/u2/translations.jpg
-.. |Current Status of OpenLP Translations| image:: http://openlp.org/files/u2/openlp_translations.png
+.. |Translate OpenLP| image:: /pictures/translations.jpg
+.. |Current Status of OpenLP Translations| image:: /pictures/openlp_translations.png

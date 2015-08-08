@@ -32,7 +32,7 @@ lot higher, thanks to the downloads we can't track, but this still gives
 us a rough idea of the impact of OpenLP.
 
 If you haven't downloaded OpenLP yet, `DO IT
-NOW <http://openlp.org/download>`__!
+NOW <http://openlp.org/download>`_!
 
-.. |Download OpenLP Open Source Free Worship Projection Presentation Software| image:: http://openlp.org/files/u2/download.png
+.. |Download OpenLP Open Source Free Worship Projection Presentation Software| image:: /pictures/download.png
    :target: http://openlp.org/download

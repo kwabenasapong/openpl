@@ -8,12 +8,12 @@
 
 **Update:** Instructions on how to test your translation out have been
 added to the `bottom of this blog
-post <http://openlp.org/en/blog/2012/11/15/last-call-translators#testing-translations>`__.
+post </blog/2012/11/15/last-call-translators#testing-translations>`_.
 
 This is the final call for all translators. If you wish to have OpenLP
 in your langauge you need to have completed the translation of
-`OpenLP <https://www.transifex.com/projects/p/openlp/>`__ on the
-`Transifex <https://www.transifex.com/>`__ site ***by midnight UTC (GMT)
+`OpenLP <https://www.transifex.com/projects/p/openlp/>`_ on the
+`Transifex <https://www.transifex.com/>`_ site ***by midnight UTC (GMT)
 on Friday the 23rd of November 2012***.
 
 Because we believe strongly in quality over quantity at OpenLP, we will
@@ -71,7 +71,7 @@ Testing Out Your Translation
 To test your translation out, do the following:
 
 #. Make sure you are running the `latest nightly
-   build <http://openlp.org/download#nightly-builds>`__
+   build <http://openlp.org/download#nightly-builds>`_
 #. Install Qt Linguist
    Windows and OS X users can download Qt Linguist from here:
    http://code.google.com/p/qtlinguistdownload/downloads/list
@@ -90,5 +90,6 @@ To test your translation out, do the following:
    \*BSD: /usr/local/share/openlp/i18n/
 #. (Re)start Openlp and select your language
 
-.. |Translate OpenLP| image:: http://openlp.org/files/u2/applications-development-translation.png
-.. |Current Status of OpenLP Translations| image:: http://openlp.org/files/u2/openlp_translations_0.png
+.. |Translate OpenLP| image:: /pictures/applications-development-translation.png
+.. |Current Status of OpenLP Translations| image:: /pictures/openlp_translations_0.png
+

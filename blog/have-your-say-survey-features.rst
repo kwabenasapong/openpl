@@ -27,4 +27,5 @@ choose so that we are absolutely certain that these are the most
 important features. Have your say: `complete the
 survey <https://docs.google.com/forms/d/1tGoW26DU-zwIkyyNHFNm_f9a9zgsZH3YrwfGwFIkZN8/viewform>`_.
 
-.. |Survey| image:: http://openlp.org/files/u2/preferences-contact-list_0.png
+.. |Survey| image:: /pictures/preferences-contact-list_0.png
+

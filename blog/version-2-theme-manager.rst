@@ -21,7 +21,7 @@ Other changes include:
 
 Two examples are below.
 
-.. image:: http://openlp.org/files/render_circular.png
+.. image:: /files/render_circular.png
 
-.. image:: http://openlp.org/files/render_linear.png
+.. image:: /files/render_linear.png
 

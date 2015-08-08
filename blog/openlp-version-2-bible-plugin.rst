@@ -28,5 +28,5 @@ up.
 
 The image below shows search results using the new Bible Plugin.
 
-.. image:: http://openlp.org/files/bibles1.png
+.. image:: /pictures/bibles1.png
 

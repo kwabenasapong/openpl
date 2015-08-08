@@ -6,7 +6,7 @@
 
 Let's start with a screen shot:
 
-.. image:: http://openlp.org/files/trb01.png
+.. image:: /pictures/trb01.png
 
 The Service Manager is nearing completion and it is now possible to save
 are restore orders of services.

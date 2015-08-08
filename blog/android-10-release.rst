@@ -1,8 +1,8 @@
 .. title: Android 1.0 release
 .. slug: 2013/03/26/android-10-release
 .. date: 2013-03-26 08:03:48 UTC
-.. tags: 
-.. description: 
+.. tags:
+.. description:
 
 |OpenLP Android Remote|
 
@@ -18,4 +18,4 @@ out, you can get it from the Google Play store, just search for "OpenLP"
 
  
 
-.. |OpenLP Android Remote| image:: http://openlp.org/files/u2/Screenshot_2013-03-26-11-45-13.png
+.. |OpenLP Android Remote| image:: /pictures/Screenshot_2013-03-26-11-45-13.png

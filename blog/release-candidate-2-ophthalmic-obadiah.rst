@@ -31,4 +31,5 @@ Minor features and enhancements in OpenLP 1.9.11
 -   - Various fixes to Song importers
 -   - Bug fixes for Formatting tag dialogues
 
-.. |OpenLP 2.0 Release Candidate 2| image:: http://openlp.org/files/u506/rc2.png
+.. |OpenLP 2.0 Release Candidate 2| image:: /pictures/rc2.png
+

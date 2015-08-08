@@ -63,7 +63,7 @@ Markdown or wiki formatting.
 
 If you'd like to help out, please contact us at that same e-mail
 address, or via the `contact
-page <http://openlp.org/en/contact-us/support>`__, and we'll get you up
+page <http://openlp.org/en/contact-us/support>`_, and we'll get you up
 and running in no time at all.
 
 Fixing Bugs
@@ -138,10 +138,10 @@ Lastly, we need to generate buzz! If you have a blog, please blog about
 us. If your church has a web site, see if you can link back to our site.
 If you have a podcast or a vodcast, please feature us - we welcome
 interviews! Of course you can also find us on all the big social
-networks, like `Facebook <https://www.facebook.com/openlp>`__,
-`Twitter <http://twitter.com/openlp>`__,
-`YouTube <http://www.youtube.com/openlpvideos>`__ and
-`Google+ <https://plus.google.com/b/117120749304988900189/117120749304988900189>`__.
+networks, like `Facebook <https://www.facebook.com/openlp>`_,
+`Twitter <http://twitter.com/openlp>`_,
+`YouTube <http://www.youtube.com/openlpvideos>`_ and
+`Google+ <https://plus.google.com/b/117120749304988900189/117120749304988900189>`_.
 
 We'll be releasing a press kit in a few days with helpful information
 and useful buttons and icons for people to use on their web sites and in
@@ -153,8 +153,9 @@ Any Other Help
 If you think you can help us in another way not listed here, please
 contact us and let us know your ideas - we're always open to more ideas.
 
-.. |Gearing Up For OpenLP 2.0| image:: http://openlp.org/files/u2/gears.jpg
-.. |OpenLP User Guide| image:: http://openlp.org/files/u2/kword.png
-.. |Bug Fixing| image:: http://openlp.org/files/u2/kbugbuster.png
-.. |OpenLP Tutorials| image:: http://openlp.org/files/u2/kbruch.png
-.. |Blog About It| image:: http://openlp.org/files/u2/kblogger.png
+.. |Gearing Up For OpenLP 2.0| image:: /pictures/gears.jpg
+.. |OpenLP User Guide| image:: /pictures/kword.png
+.. |Bug Fixing| image:: /pictures/kbugbuster.png
+.. |OpenLP Tutorials| image:: /pictures/kbruch.png
+.. |Blog About It| image:: /pictures/kblogger.png
+

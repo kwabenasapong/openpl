@@ -12,9 +12,9 @@ on Sunday mornings. It is also useful for speakers that want to control
 what is being displayed and I'm sure many many other uses. We have
 recently had a few questions about the remote feature and the setup. You
 can find detailed instructions in the `OpenLP
-documentation <http://manual.openlp.org/configure.html#remote>`__ and
+documentation <http://manual.openlp.org/configure.html#remote>`_ and
 also info for the `Android
-app <http://manual.openlp.org/android.html#android>`__.
+app <http://manual.openlp.org/android.html#android>`_.
 
 **Networking Basics**
 
@@ -49,19 +49,19 @@ OpenLP machine is on.
 **Connect to the Correct IP Address **
 
 Most networks use
-`DHCP <http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>`__
+`DHCP <http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>`_
 to hand out IP addresses, this means your OpenLP machine may not have
 the same IP address every week so it may be necessary to check that if
 you cannot connect with your device. You can find the IP address from
 the `remote
-settings <http://manual.openlp.org/_images/configureremotes.png>`__\ screen
+settings <http://manual.openlp.org/_images/configureremotes.png>`_\ screen
 in OpenLP. You can also find the IP address by entering the command
 "ipconfig" in the command prompt in Windows, or by the commands "ip a"
 or "ifconfig" on most Mac, Linux, and BSD machines. You can also find
 your OpenLP computer if you know its
-`hostname  <http://en.wikipedia.org/wiki/Hostname>`__ on your Android
+`hostname  <http://en.wikipedia.org/wiki/Hostname>`_ on your Android
 device by using an app such as
-`eZNetScan <https://play.google.com/store/apps/details?id=com.vrsspl.eznetscan&hl=en>`__.
+`eZNetScan <https://play.google.com/store/apps/details?id=com.vrsspl.eznetscan&hl=en>`_.
 
 **Be Sure to Apply Your Settings**
 
@@ -74,8 +74,9 @@ A static IP address will help keep you from having a lot of these
 issues. This may not always be possible, another way to achieve
 something close to this is using a tool most routers have to reserve
 dhcp addresses usually bound to the `MAC
-address <http://en.wikipedia.org/wiki/MAC_address>`__ of a computer.
+address <http://en.wikipedia.org/wiki/MAC_address>`_ of a computer.
 Check your routers documentation but this is usually a pretty simple
 process.
 
-.. |Android| image:: http://openlp.org/files/u1284/android_logo.gif
+.. |Android| image:: /pictures/android_logo.gif
+

@@ -12,8 +12,5 @@ can't see it, you can download it and watch it in VLC using the link
 below, or you'll have to wait a little until I've uploaded it to our
 YouTube channel.
 
-| 
-|  Your browser does not support the video tag or WebM videos.
-
 `Download OpenLP Service Tutorial
-Video <http://openlp.org/files/openlp-service-tutorial.webm>`__
+Video </files/openlp-service-tutorial.webm>`_

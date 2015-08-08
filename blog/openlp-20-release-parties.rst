@@ -19,10 +19,10 @@ celebrate the release of OpenLP 2.0. A better solution would be for
 people in various areas to host regional release parties.
 
 There are a number of OpenLP `developers living in the
-UK <http://openlp.org/en/forums/general-support/general-discussion/uk-20-release-party>`__,
+UK <http://openlp.org/en/forums/general-support/general-discussion/uk-20-release-party>`_,
 and they are quite eager to get together for a release party. I live in
 `Cape Town, South
-Africa <http://openlp.org/en/forums/general-support/general-discussion/south-africa-20-release-party>`__,
+Africa <http://openlp.org/en/forums/general-support/general-discussion/south-africa-20-release-party>`_,
 and I'm keen to host a release party here in Cape Town too.
 
 If you are interested in attending a release party, or hosting a release
@@ -36,4 +36,5 @@ the day of OpenLP's release either, they can be a week or two or three
 later. If you have any ideas of how to celebrate OpenLP's release, feel
 free to post your ideas in the forums too.
 
-.. |Cape Town| image:: http://openlp.org/files/u2/Cape_Town.jpg
+.. |Cape Town| image:: /pictures/Cape_Town.jpg
+

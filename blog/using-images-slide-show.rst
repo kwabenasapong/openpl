@@ -40,7 +40,7 @@ the background playing as people come in. We have a very pro looking
 pre-service set of announcements that can be put together at the very
 last minute.
 
-.. |Image| image:: http://openlp.org/files/u1284/camera_256.png
-.. |Images| image:: http://openlp.org/files/u1284/slideshow1.png
-.. |Service Manager| image:: http://openlp.org/files/u1284/slideshow2.png
-.. |image3| image:: http://openlp.org/files/u1284/slideshow3.png
+.. |Image| image:: /pictures/camera_256.png
+.. |Images| image:: /pictures/slideshow1.png
+.. |Service Manager| image:: /pictures/slideshow2.png
+.. |image3| image:: /pictures/slideshow3.png

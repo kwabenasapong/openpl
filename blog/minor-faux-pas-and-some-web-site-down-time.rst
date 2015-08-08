@@ -21,7 +21,6 @@ this weekend just before the release. So don't panic if see a "website
 under maintenance" page, the web site will be ready for the release on
 Sunday!
 
- 
+.. |Computer| image:: /pictures/computer-laptop.png
+.. |Site Maintenance| image:: /pictures/internet-web-browser.png
 
-.. |Computer| image:: http://openlp.org/files/u2/computer-laptop.png
-.. |Site Maintenance| image:: http://openlp.org/files/u2/internet-web-browser.png
