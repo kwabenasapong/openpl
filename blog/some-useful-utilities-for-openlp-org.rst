@@ -11,7 +11,7 @@ import Bibles from BibleGateway.com, which should be legal in terms of
 the "fair use" clause of copyright law. Please note, however, that I am
 not a lawyer, so I might be totally incorrect about this.
 
-| We've listed Jonathan's software on a new page in the documentation:
+We've listed Jonathan's software on a new page in the documentation:
 Useful Utilities. If you have written a utility for openlp.org and what
 it included on this page, please let me know (see the Contributing
 page).

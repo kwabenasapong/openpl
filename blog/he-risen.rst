@@ -57,5 +57,6 @@ We are also happy to see that the community is growing, with more people
 helping out on the forums. We are always grateful for every helping
 hand.
 
-.. |Image Groups| image:: http://openlp.org/files/u2/image_groups.png
-.. |SSL and Password| image:: http://openlp.org/files/u2/ssl_password.png
+.. |Image Groups| image:: /pictures/image_groups.png
+.. |SSL and Password| image:: /pictures/ssl_password.png
+

@@ -27,7 +27,7 @@ previous versions of OpenLP with your most recent database.*
 This release is no different to the last one, chock-full of bug fixes,
 with a few features, or feature enhancements, thrown in. We are also
 constantly updating `the manual
-(http://manual.openlp.org/) <http://manual.openlp.org/>`__ to reflect
+(http://manual.openlp.org/) <http://manual.openlp.org/>`_ to reflect
 these new features and enhancements and a lot of changes have already
 been documented.
 
@@ -35,14 +35,14 @@ Some of the features you'll find in this release:
 
 -  A top toolbar in the web remote
 -  `Media has been
-   rewritten <http://www.openlp.org/en/blog/2011/12/02/media-rewrite-complete>`__
+   rewritten <http://www.openlp.org/en/blog/2011/12/02/media-rewrite-complete>`_
    to make integration of other media systems, like VLC, easier.
 -  Added "Justify" as a theme option (note: this makes themes not
    backward compatible if this option is used)
 -  Ability to edit songs loaded as part of a service which are not
    stored permanently in the songs database.
 -  `Special
-   shortcuts <http://www.openlp.org/en/blog/2011/11/06/shortcuts-live-controller-video>`__
+   shortcuts <http://www.openlp.org/en/blog/2011/11/06/shortcuts-live-controller-video>`_
    for the slide controller to go directly to any verse.
 
 Some of the bug fixes you'll find in this release:
@@ -86,6 +86,7 @@ take the time to refresh yourself with Jesus Christ, our Wonderful
 Counselor, Mighty God, Everlasting Father and Prince of Peace. Amen.
 
 `Go grab OpenLP 1.9.8 from the Download
-page! <http://openlp.org/en/download>`__
+page! <http://openlp.org/en/download>`_
 
-.. |Christmas Present| image:: http://openlp.org/files/u2/christmas_present.png
+.. |Christmas Present| image:: /pictures/christmas_present.png
+

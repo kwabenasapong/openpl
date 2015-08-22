@@ -1,15 +1,15 @@
 .. title: RC1 progress
 .. slug: 2006/04/23/rc1-progress
 .. date: 2006-04-23 22:04:01 UTC
-.. tags: 
-.. description: 
+.. tags:
+.. description:
 
 As you might have noticed, openlp.org has stagnated again. My profuse
 apologies, this was due to an error with PowerPoint that I was not sure
 how to solve. I didn't have PowerPoint installed, so I could not figure
 what the problem was.
 
-Well, this evening I eventually \*did\* install PowerPoint, and
+Well, this evening I eventually **did** install PowerPoint, and
 recompiled openlp.org, and it seems to have solved the problem. I also
 added the CCLI license number to the slides, and fixed up a bit of the
 positioning of the informational text at the bottom of the slides.
@@ -19,7 +19,7 @@ displaying properly, and focussing problems. I'll be meeting with Tim on
 Tuesday evening to see if we can get past those last few hurdles, and
 then RC1 should be good to go.
 
-| On a side note, please could you keep both Tim and myself in your
+On a side note, please could you keep both Tim and myself in your
 prayers.
 
 -  Tim is due to get married in July, he's got his studies, and then he

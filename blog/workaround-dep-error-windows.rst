@@ -7,20 +7,20 @@
 |Windows|
 
 Recently we have had users `report issues with
-OpenLP <http://forums.openlp.org/discussion/1906/openlp-1-9-12-crashes-on-my-windows-vista-laptop/p1>`__
+OpenLP <http://forums.openlp.org/discussion/1906/openlp-1-9-12-crashes-on-my-windows-vista-laptop/p1>`_
 running on certain installs of Windows with an error about DEP. This
 seems to be mostly on Windows Vista but could possibly be an issue with
 more recent versions of Windows. DEP stands for Data Execution
 Prevention. In short this is to prevent malicious programs from using
 memory in a way that it shouldn't. That is a really poor description,
 but the `folks at Wikipedia have a detailed
-description <http://en.wikipedia.org/wiki/Data_Execution_Prevention>`__.
+description <http://en.wikipedia.org/wiki/Data_Execution_Prevention>`_.
 You can `find out more from Microsoft
-too <http://windows.microsoft.com/en-US/windows-vista/Data-Execution-Prevention-frequently-asked-questions>`__.
+too <http://windows.microsoft.com/en-US/windows-vista/Data-Execution-Prevention-frequently-asked-questions>`_.
 
 When a program you know you can trust experiences an issue with DEP you
 should be able to `disable DEP for that
-program <http://windows.microsoft.com/en-US/windows-vista/Change-Data-Execution-Prevention-settings>`__.
+program <http://windows.microsoft.com/en-US/windows-vista/Change-Data-Execution-Prevention-settings>`_.
 There is an issue, however, chances are if you try this method OpenLP
 will not be listed (manually selecting the exe will also not work from
 my experience). This will make it impossible to disable DEP for OpenLP
@@ -37,7 +37,7 @@ OpenLP running.
 First, you need to open an elevated command prompt or administrative
 command prompt. If you are unsure how to do that, Vista x64 has a great
 `guide on how to do
-it <http://www.vistax64.com/tutorials/181765-elevated-command-prompt.html>`__.
+it <http://www.vistax64.com/tutorials/181765-elevated-command-prompt.html>`_.
 
 Next enter this command into the elevated command prompt:
 
@@ -57,11 +57,12 @@ open an elevated command prompt and enter:
 Reboot and DEP is now enabled again.
 
 These instructions were taken from `instructions on the Vista x64
-site <http://www.vistax64.com/tutorials/120778-dep-enable-disable.html>`__
+site <http://www.vistax64.com/tutorials/120778-dep-enable-disable.html>`_
 I suggest you give it a look also.
 
 This may not be the best way to do this as we don't seem to have any
 real DEP/Windows experts here so if you have a better way let us know in
 the comments below and if it checks out we will update the blog entry.
 
-.. |Windows| image:: http://openlp.org/files/u1284/Windows-8-logo-300x300.jpg
+.. |Windows| image:: /pictures/Windows-8-logo-300x300.jpg
+

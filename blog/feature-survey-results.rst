@@ -95,7 +95,7 @@ Android app.
 We also noticed that some folk thought that OpenLP is donateware. It is
 not, we haven't publically accepted donations for a few reasons, mostly
 that we don't see the need. If you *would* like to donate, please
-`e-mail us (contact form) <http://openlp.org/support/email-us>`__.
+`e-mail us (contact form) <http://openlp.org/support/email-us>`_.
 
 What do you dislike about OpenLP?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -124,14 +124,15 @@ Helping with development
 We couldn't help but notice that a few of the respondents indicated a
 willingness to help develop OpenLP in some way. If you're keen to take a
 look at helping out, please see our `getting
-started <http://wiki.openlp.org/#Development>`__ page on the developer
-wiki and `join us in IRC <http://openlp.org/support/live-chat-irc>`__ so
+started <http://wiki.openlp.org/#Development>`_ page on the developer
+wiki and `join us in IRC <http://openlp.org/support/live-chat-irc>`_ so
 that we can help you get up and running.
 
 As always, God bless, and happy projecting!
 
-.. |How did you originally hear about OpenLP?| image:: http://openlp.org/files/u2/heard_about_openlp.png
-.. |Which services do you use OpenLP in?| image:: http://openlp.org/files/u2/services_used_in.png
-.. |What do you currently use OpenLP for?| image:: http://openlp.org/files/u2/how_openlp_used.png
-.. |What operating system do you use OpenLP on?| image:: http://openlp.org/files/u2/operating_system.png
-.. |What other software do you use in addition to OpenLP?| image:: http://openlp.org/files/u2/other_software.png
+.. |How did you originally hear about OpenLP?| image:: /pictures/heard_about_openlp.png
+.. |Which services do you use OpenLP in?| image:: /pictures/services_used_in.png
+.. |What do you currently use OpenLP for?| image:: /pictures/how_openlp_used.png
+.. |What operating system do you use OpenLP on?| image:: /pictures/operating_system.png
+.. |What other software do you use in addition to OpenLP?| image:: /pictures/other_software.png
+

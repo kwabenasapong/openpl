@@ -17,30 +17,25 @@ version of OpenLP.
 Minor features and enhancements in OpenLP 1.9.10
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  OpenLP now has a portable version in PortableApps.com form
--  Users can now set a custom location for their data files
--  DreamBeam song importer
--  PowerSong importer
--  ZionWorx CSV song importer
--  Improved rendering times
--  Keep/restore selected book, chapters and verses when changing the
-   bible translation in advanced search
--  Added a dialog to edit metadata of Bibles, and additional language
-   options.
--  UI and usability improvements to the web remote
+* OpenLP now has a portable version in PortableApps.com form
+* Users can now set a custom location for their data files
+* DreamBeam song importer
+* PowerSong importer
+* ZionWorx CSV song importer
+* Improved rendering times
+* Keep/restore selected book, chapters and verses when changing the bible translation in advanced search
+* Added a dialog to edit metadata of Bibles, and additional language options.
+* UI and usability improvements to the web remote
 
 Major bugs fixed in OpenLP 1.9.10:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  The new BibleGateway web site was causing issues with the web Bible
-   importer
--  OpenLP did not exit properly on some Windows systems
--  Disabled VLC integration on FreeBSD due to it not being supported by
-   VLC
--  Theme wizard now uses the current output display geometry when
-   creating a thumbnail for a theme
--  Fixed a problem where newly imported Bibles would throw an error
--  Fixed most of the issues surrounding the progress bar for videos
+* The new BibleGateway web site was causing issues with the web Bible importer
+* OpenLP did not exit properly on some Windows systems
+* Disabled VLC integration on FreeBSD due to it not being supported by VLC
+* Theme wizard now uses the current output display geometry when creating a thumbnail for a theme
+* Fixed a problem where newly imported Bibles would throw an error
+* Fixed most of the issues surrounding the progress bar for videos
 
 Known issues:
 ^^^^^^^^^^^^^
@@ -94,4 +89,5 @@ OpenLP 2.0 in a few months.
 
     Luke 2:36-38 NIV
 
-.. |OpenLP 2.0 Release Candidate 1| image:: http://openlp.org/files/u2/rc1.png
+.. |OpenLP 2.0 Release Candidate 1| image:: /pictures/rc1.png
+

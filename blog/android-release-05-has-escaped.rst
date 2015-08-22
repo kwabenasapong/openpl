@@ -1,8 +1,8 @@
 .. title: Android Release : 0.5 has escaped
 .. slug: 2012/07/02/android-release-05-has-escaped
 .. date: 2012-07-02 17:07:12 UTC
-.. tags: 
-.. description: 
+.. tags:
+.. description:
 
 |OpenLP for Android|
 
@@ -28,4 +28,4 @@ The new features added since 0.4 are:
 -  To aid usability, the displayed verse is now highlighted on the live
    tab so it is obvious which slide is selected.
 
-.. |OpenLP for Android| image:: http://openlp.org/files/u2/Google-Android-128.png
+.. |OpenLP for Android| image:: /pictures/Google-Android-128.png

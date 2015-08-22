@@ -25,4 +25,4 @@ there is some reason why you cannot upgrade to a later version of
 Ubuntu, you can come into our IRC channel and chat with us about getting
 OpenLP running on your computer.
 
-.. |Ubuntu 12.04| image:: http://openlp.org/files/u2/precise-pangolin.png
+.. |Ubuntu 12.04| image:: /pictures/precise-pangolin.png

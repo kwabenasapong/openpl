@@ -37,6 +37,6 @@ My question is this: Is Microsoft a company you want to associate with
 as a Christian, as a member of the Church? Are they "true, noble, right,
 pure lovely or admirable"?
 
-| I would recommend that you show print out this document and show it to
+I would recommend that you show print out this document and show it to
 your pastors and those involved in the leadership of your church. Ask
 them to think about what I've said.

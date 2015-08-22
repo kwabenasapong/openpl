@@ -4,24 +4,14 @@
 .. tags: 
 .. description: 
 
-Let's start with a screen shot
+Let's start with a screen shot:
+
+.. image:: /pictures/trb01.png
 
 The Service Manager is nearing completion and it is now possible to save
 are restore orders of services.
 
 The screen shot also shows that individual verses are visible within
-songs.  These can be selected as the starting place for the times when
+songs. These can be selected as the starting place for the times when
 the worship leader decides to start in a different place to normal.
 
-+--------------------------------------+--------------------------------------+
-| Attachment                           |
-| Size                                 |
-+======================================+======================================+
-| |image1|                             |
-| `trb01.png <http://openlp.org/files/ |
-| trb01.png>`__                        |
-| 395.19 KB                            |
-+--------------------------------------+--------------------------------------+
-
-.. |image0| image:: http://openlp.org/modules/file/icons/image-x-generic.png
-.. |image1| image:: http://openlp.org/modules/file/icons/image-x-generic.png

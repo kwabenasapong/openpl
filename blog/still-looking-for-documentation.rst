@@ -4,7 +4,7 @@
 .. tags: 
 .. description: 
 
-| We're still looking for people to help out with the documentation.
+We're still looking for people to help out with the documentation.
 That's the final part in the "release" of openlp.org. Unfortunately
 neither Derek nor myself have the time at the moment to do that, so we'd
 really appreciate the help.

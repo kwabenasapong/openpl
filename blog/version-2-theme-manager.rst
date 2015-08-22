@@ -21,17 +21,7 @@ Other changes include:
 
 Two examples are below.
 
-+--------------------------------------+--------------------------------------+
-| Attachment                           |
-| Size                                 |
-+======================================+======================================+
-| |image2|                             | |image3|                             |
-| `render\_circular.png <http://openlp | `render\_linear.png <http://openlp.o |
-| .org/files/render_circular.png>`__   | rg/files/render_linear.png>`__       |
-| 119 KB                               | 61.17 KB                             |
-+--------------------------------------+--------------------------------------+
+.. image:: /files/render_circular.png
 
-.. |image0| image:: http://openlp.org/modules/file/icons/image-x-generic.png
-.. |image1| image:: http://openlp.org/modules/file/icons/image-x-generic.png
-.. |image2| image:: http://openlp.org/modules/file/icons/image-x-generic.png
-.. |image3| image:: http://openlp.org/modules/file/icons/image-x-generic.png
+.. image:: /files/render_linear.png
+

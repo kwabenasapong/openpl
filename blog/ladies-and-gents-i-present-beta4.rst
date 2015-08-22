@@ -6,6 +6,6 @@
 
 Hi all!
 
-| Yes, I have just released openlp.org beta4. This beta includes things
+Yes, I have just released openlp.org beta4. This beta includes things
 like improved useability, working PowerPoint integeration and a revamped
 theme system. Please report bugs in the bug reporting forum.

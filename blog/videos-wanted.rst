@@ -13,7 +13,7 @@ a YouTube channel. Many times a video is worth more than a thousand
 words when demonstrating a feature or helping out with a technical
 issue.
 
-| We would love for members of the OpenLP community to help out with
+We would love for members of the OpenLP community to help out with
 support. We can always use help with the manual or in chat, but
 specifically we would love to have your videos. Maybe you would like to
 document a feature that once found you couldn't live without. Maybe, you

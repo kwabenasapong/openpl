@@ -13,7 +13,7 @@ seems to be due to a bug in the way LibreOffice is packaged in the PPA,
 as other Linux users on distributions such as Fedora and Arch are not
 encountering the problem.
 
-Please ***do not install*** LibreOffice from the PPA, it ***WILL***
+Please **do not install** LibreOffice from the PPA, it **WILL**
 break OpenLP.
 
 Folks, please note that ***OpenLP is currently not compatible with
@@ -22,4 +22,4 @@ and LibreOffice uses Python 3.2 which are incompatible. The next version
 of OpenLP, version 2.2, will be compatible with LibreOffice 4.x but
 unfortunately there is no way to backport this compatibility.
 
-.. |Package| image:: http://openlp.org/files/u2/utilities-file-archiver.png
+.. |Package| image:: /pictures/utilities-file-archiver.png

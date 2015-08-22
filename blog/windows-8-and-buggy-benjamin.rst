@@ -9,7 +9,7 @@
 We've had a number of reports recently of users with Windows 8 being
 unable to run OpenLP. Unfortunately from our side we have not had any
 problems with our tests on Windows 8. If you have Windows 8 `please
-contact us <http://openlp.org/en/support>`__ to let us know your
+contact us <http://openlp.org/en/support>`_ to let us know your
 experiences, both good and bad. Even if everything is working perfectly
 fine, we want to know that.
 
@@ -22,9 +22,9 @@ some of OpenLP's dependencies.
 Secondly, we have found two regressions in version 2.0, which have been
 fixed but are waiting for a release. The first is an issue with
 transparent themes which are `no longer
-transparent <https://bugs.launchpad.net/openlp/+bug/1085609>`__, and the
+transparent <https://bugs.launchpad.net/openlp/+bug/1085609>`_, and the
 second is a `bug in the export
-function <https://bugs.launchpad.net/openlp/+bug/1085921>`__.
+function <https://bugs.launchpad.net/openlp/+bug/1085921>`_.
 
 Interestingly, we never realised how much the export feature was used
 until it was broken. We've had quite a number of folks reporting the
@@ -33,7 +33,7 @@ issue.
 If you are experiencing either of these issues on Windows or Mac OS X
 then we recommend downgrading to version 1.9.12, `which can still be
 found on
-SourceForge <http://sourceforge.net/projects/openlp/files/openlp/1.9.12/>`__.
+SourceForge <http://sourceforge.net/projects/openlp/files/openlp/1.9.12/>`_.
 Users on Linux can either patch their version of OpenLP with help from
 us, or sit tight until we make a bugfix release.
 
@@ -45,4 +45,4 @@ We're hoping to make a release sometime in December.
 We're hoping to release version 2.0.1 on Sunday the 6th of January, the
 first release of the new year.
 
-.. |Windows 8| image:: http://openlp.org/files/u2/windows8.jpg
+.. |Windows 8| image:: /pictures/windows8.jpg

@@ -18,7 +18,7 @@ to be able to hold back the tide once the alpha is released.
 Therefore new 2.0 specific forums have been created, to help separate
 v1.2 posts from v2.0 ones.
 
-| If you just want to discuss how great \*cough\* 2.0 is, need a bit of
+If you just want to discuss how great \*cough\* 2.0 is, need a bit of
 help getting it to do what you want or other general 2.0 chat, then you
 can use the General Discussion forum. Just don't ask us when the final
 version will be released, we don't know :)

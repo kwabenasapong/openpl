@@ -22,4 +22,4 @@ Pangolin.
 
 Don't forget that you can find OpenLP in openSUSE and Fedora too.
 
-.. |Ubuntu Linux| image:: http://openlp.org/files/u2/ubuntu_orange_hex1.png
+.. |Ubuntu Linux| image:: /pictures/ubuntu_orange_hex1.png

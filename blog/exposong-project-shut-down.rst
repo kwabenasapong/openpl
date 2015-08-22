@@ -5,8 +5,8 @@
 .. description: 
 
 A few days ago another open source church worship project called
-`ExpoSong <http://exposong.org/>`__ had to `shut
-down <http://exposong.org/2014/01/08/eol-announcement/>`__. It seems to
+`ExpoSong <http://exposong.org/>`_ had to `shut
+down <http://exposong.org/2014/01/08/eol-announcement/>`_. It seems to
 me that they had a very small development team and were unable to
 continue developing their software. ExpoSong's last release was over 2
 years ago, in December 2011, and I can only presume they took a rain
@@ -21,8 +21,7 @@ to continue at a later stage.
 
 For those of you who have come from ExpoSong, I have put together a
 step-by-step guide below to show you how to easily export all your songs
-from ExpoSong and import them all into OpenLP. Click the **Read more**
-link below if you can't see the guide.
+from ExpoSong and import them all into OpenLP.
 
 Exporting Songs from ExpoSong and Importing Into OpenLP
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,7 +48,7 @@ Now you should have a "tarball" in your directory.
 |Tarball|
 
 Using an archive program (Windows users can use
-`7-zip <http://www.7-zip.org/>`__, unzipping should be built in on Linux
+`7-zip <http://www.7-zip.org/>`_, unzipping should be built in on Linux
 and OS X), extract the contents of the "tarball".
 
 |Extracted Archive|
@@ -69,11 +68,12 @@ to be imported.
 Follow the rest of the prompts in the wizard to finish importing your
 files.
 
-.. |Export songs from ExpoSong| image:: http://openlp.org/files/u2/exposong_01_export_whole_library.png
-.. |Select Location| image:: http://openlp.org/files/u2/exposong_02_export_whole_library.png
-.. |Find exported file| image:: http://openlp.org/files/u2/exposong_03_export_whole_library.png
-.. |Change File Extension| image:: http://openlp.org/files/u2/exposong_04_export_whole_library.png
-.. |Tarball| image:: http://openlp.org/files/u2/exposong_05_export_whole_library.png
-.. |Extracted Archive| image:: http://openlp.org/files/u2/exposong_06_export_whole_library.png
-.. |Song Files| image:: http://openlp.org/files/u2/exposong_07_export_whole_library.png
-.. |Import into OpenLP| image:: http://openlp.org/files/u2/exposong_08_export_whole_library.png
+.. |Export songs from ExpoSong| image:: /pictures/exposong_01_export_whole_library.png
+.. |Select Location| image:: /pictures/exposong_02_export_whole_library.png
+.. |Find exported file| image:: /pictures/exposong_03_export_whole_library.png
+.. |Change File Extension| image:: /pictures/exposong_04_export_whole_library.png
+.. |Tarball| image:: /pictures/exposong_05_export_whole_library.png
+.. |Extracted Archive| image:: /pictures/exposong_06_export_whole_library.png
+.. |Song Files| image:: /pictures/exposong_07_export_whole_library.png
+.. |Import into OpenLP| image:: /pictures/exposong_08_export_whole_library.png
+

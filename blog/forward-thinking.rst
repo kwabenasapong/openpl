@@ -26,4 +26,4 @@ We thank you for your patience in this matter and apoligise for this
 bug. Steps are being taken including automated testing in 2.2 to reduce
 the chances of bugs like these slipping in the future.
 
-.. |The Future| image:: http://openlp.org/files/u2/the-future-sign.jpg
+.. |The Future| image:: /pictures/the-future-sign.jpg

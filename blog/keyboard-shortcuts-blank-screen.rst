@@ -14,7 +14,7 @@ Esc to hide the display. We also plan in the future to add shortcuts to
 allow the user to skip straight to a verse or chorus and the ability to
 customize the shortcuts.
 
-| However one shortcut we haven't yet implemented is blank screen, and
+However one shortcut we haven't yet implemented is blank screen, and
 we're trying to figure out what key to use as the default. The obvious
 is "B", but we want to reserve that in the future for "Bridge"...
 

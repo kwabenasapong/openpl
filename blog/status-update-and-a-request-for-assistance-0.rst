@@ -11,7 +11,7 @@ theme level to song level, OOS level or global default. I few other
 small bugs have also been resolved. The internationalisation feature
 will be moved out to beta6.
 
-| The one outstanding issue that we wanted to include for beta 5 is the
+The one outstanding issue that we wanted to include for beta 5 is the
 correction of the CCLI bug. This is where we have a small problem that I
 hope someone out there can help me with. The South African CCLI website
 does not have the same functionality as the USA website and we can't use
@@ -23,6 +23,5 @@ That's it from me for now.
 
 God bless,
 
-| Derek.
-
+Derek.
  

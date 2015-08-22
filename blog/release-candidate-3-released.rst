@@ -15,6 +15,6 @@ slide. Also, if you look in the options window, you'll see that there's
 a "Verse slide layout" section where you can choose whether you want all
 the verses displayed together or each on a separate line on the slide.
 
-| So, a couple of new things in this release, a couple of things fixed.
+So, a couple of new things in this release, a couple of things fixed.
 If you encounter any bugs, use the bug reporting topic in the forums to
 file your bug report.

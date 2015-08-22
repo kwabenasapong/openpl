@@ -59,7 +59,7 @@ ${template_hooks['extra_head']()}
                 </div>
             </div>
         </header>
-% if permalink is not UNDEFINED and permalink == u'/blog/index.html':
+% if permalink is not UNDEFINED and permalink.startswith(u'/blog/index'):
         <div class="blog-heading">
             <div class="container">
                 <div class="row">

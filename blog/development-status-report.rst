@@ -14,15 +14,13 @@ area's that needed enhancing prior to a major distribution release. You
 can look forward to the following enhancements coming in the next few
 release candidates:
 
-| - Enhanced Bible Verse handing where you can display multiple verses
-on one slide
-| - Some keyboard navigation (actually I think it's in RC2 already)
-| - Enhanced slide auto-scrolling
-| - Import/Export of themes
-| - Storage of theme data exclusively in the 'theme' directory in XML
-format
+* Enhanced Bible Verse handing where you can display multiple verses on one slide
+* Some keyboard navigation (actually I think it's in RC2 already)
+* Enhanced slide auto-scrolling
+* Import/Export of themes
+* Storage of theme data exclusively in the 'theme' directory in XML format
 
-| There may be 1 or 2 other things, but these are the main ones as we
+There may be 1 or 2 other things, but these are the main ones as we
 didn't want to impact our timeline too much.
 
 God Bless,
