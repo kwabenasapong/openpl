@@ -389,7 +389,7 @@ REDIRECTIONS = []
 # "assets/css/code.css" this is ignored.
 # Can be any of autumn borland bw colorful default emacs friendly fruity manni
 # monokai murphy native pastie perldoc rrt tango trac vim vs
-# CODE_COLOR_SCHEME = 'default'
+CODE_COLOR_SCHEME = 'monokai'
 
 # If you use 'site-reveal' theme you can select several subthemes
 # THEME_REVEAL_CONFIG_SUBTHEME = 'sky'
@@ -408,8 +408,8 @@ REDIRECTIONS = []
 #     ("icon", "/icon_128x128.png", "128x128"),
 # }
 
-# Show only teasers in the index pages? Defaults to False.
-# INDEX_TEASERS = False
+# Show only teasers in the index pages? Defaults to False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
