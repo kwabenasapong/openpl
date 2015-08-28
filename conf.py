@@ -136,6 +136,7 @@ TIMEZONE = "UTC"
 # Date format used to display post dates.
 # (str used by datetime.datetime.strftime)
 # DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = '%a %-d %b, %Y'
 
 # While nikola can select a sensible locale for each language,
 # sometimes explicit control can come handy.
@@ -796,3 +797,6 @@ LOGGING_HANDLERS = {
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {}
+
+# Make the index pages go the other way round
+INDEXES_STATIC = False
