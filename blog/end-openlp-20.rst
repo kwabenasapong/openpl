@@ -29,6 +29,7 @@ As per usual, you can find the release on the `Download`_ page. If 2.0.5 isn't a
 The next release of OpenLP will be version 2.1.1, which will be the first beta version of OpenLP 2.2.
 
     Therefore, if anyone is in Christ, he is a new creation. The old has passed away; behold, the new has come.
+
     2 Corinthians 5:17 ESV
 
 [ Image Credit: `End of the Line by Kevin Gessner`_ ]
