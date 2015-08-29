@@ -278,3 +278,8 @@ article blockquote p:first-child {
 .social-links li.reddit a:hover {
     color: #ff4500;
 }
+
+.main-navigation .navbar-default .navbar-nav > li > a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
