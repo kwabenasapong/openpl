@@ -6,6 +6,7 @@
 .. link:
 .. description:
 .. type: text
+.. previewimage: /cover-images/getting-closer-stable-release-version-215.jpg
 
    So we do not lose heart. Though our outer self is wasting away, our inner self is being renewed day by day. For this light momentary affliction is preparing for us an eternal weight of glory beyond all comparison,  as we look not to the things that are seen but to the things that are unseen. For the things that are seen are transient, but the things that are unseen are eternal.
 
@@ -27,5 +28,7 @@ Here are the bug reports we have fixed:
 * #1449041 Main vebview doesn't mirror PowerPoint when using a single-screen setup
 * #1449064 Transitions happens in the same slide
 
-.. _Download: http://openlp.org/download
+[ Image Credit: `Stables by Larry Ewing`_ ]
 
+.. _Download: http://openlp.org/download
+.. _Stables by Larry Ewing: https://www.flickr.com/photos/lewing/3510479166/
