@@ -283,3 +283,11 @@ article blockquote p:first-child {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.banner-caption h1 {
+    font-size: 4em;
+}
+
+.lead {
+    font-size: 1.4em;
+}

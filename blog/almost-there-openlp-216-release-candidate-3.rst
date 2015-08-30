@@ -35,32 +35,29 @@ As with the previous major release of OpenLP, we will only be bundling
 translations which are 95% or more complete. If you want to see OpenLP
 in your language, take a look below and update the translation for your
 language on
-`Transifex <https://www.transifex.com/openlp/openlp/openlp-22x/>`__, no
+`Transifex <https://www.transifex.com/openlp/openlp/openlp-22x/>`_, no
 download necessary!
 
 |OpenLP Translations|
 
 Sign up on Transifex and join the community!
 
-    | For everything there is a season, and a time for every matter
-    under heaven:
-    |   a time to be born, and a time to die;
+    | For everything there is a season, and a time for every matter under heaven:
+    |     a time to be born, and a time to die;
     | a time to plant, and a time to pluck up what is planted;
-    |   a time to kill, and a time to heal;
+    |     a time to kill, and a time to heal;
     | a time to break down, and a time to build up;
-    |   a time to weep, and a time to laugh;
+    |     a time to weep, and a time to laugh;
     | a time to mourn, and a time to dance;
-    |   a time to cast away stones, and a time to gather stones
-    together;
+    |     a time to cast away stones, and a time to gather stones together;
     | a time to embrace, and a time to refrain from embracing;
-    |   a time to seek, and a time to lose;
+    |     a time to seek, and a time to lose;
     | a time to keep, and a time to cast away;
-    |   a time to tear, and a time to sew;
+    |     a time to tear, and a time to sew;
     | a time to keep silence, and a time to speak;
-    |   a time to love, and a time to hate;
+    |     a time to love, and a time to hate;
     | a time for war, and a time for peace.
 
-                                                                                 
     Ecclesiastes 3:1-8
 
 With my grandmother's passing recently, and reading the Bible to my kids
@@ -69,6 +66,7 @@ important for us to always be aware of the timeousness of what we're
 doing. Make the best use of your time here on earth, so that you can
 reap the rewards of your eathly work in Heaven.
 
-`Download Now! <http://openlp.org/en/download#development>`__
+`Download Now! <http://openlp.org/en/download#development>`_
 
-.. |OpenLP Translations| image:: http://openlp.org/files/u2/openlp-22-translations.png
+.. |OpenLP Translations| image:: /pictures/openlp-22-translations.png
+
