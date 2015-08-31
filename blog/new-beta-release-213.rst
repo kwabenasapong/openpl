@@ -46,7 +46,8 @@ There are over 30 bugs fixed in this release, including:
 * Alert is displayed on a single screen when "Display on a single screen" is not checked
 
 Important Notes
----------------
+~~~~~~~~~~~~~~~
+
 OpenLP 2.1.3 is **not backwards compatible** with 2.0.5. Once you have upgraded from 2.0.5, version 2.0.5 cannot read the upgraded files. OpenLP 2.1.3 will make a backup on startup, but it is recommended that you make your own backup too.
 
 Upgrading from versions of OpenLP before 2.0.5 are not supported. You need to upgrade to 2.0.5 first, and make sure you run OpenLP at least once before continuing to upgrade to 2.1.3
@@ -56,7 +57,7 @@ This is a beta release, which means it is not yet finished and likely to still c
 Service Files created in 2.1.3 cannot be opened in 2.0
 
 System Requirements
--------------------
+~~~~~~~~~~~~~~~~~~~
 
 OpenLP's system requrements have been upgraded since the 2.0.5 release. We have had to drop older operating systems in order to take advantage of newer features not available in older operating systems. Please take note:
 
@@ -65,11 +66,11 @@ OpenLP's system requrements have been upgraded since the 2.0.5 release. We have 
 * Ubuntu 14.04, 14.10 and 15.02
 * Fedora 21
 
-| I lift up my eyes to the hills.
-|     From where does my help come?
-| My help comes from the Lord,
-|     who made heaven and earth.
-|                        Psalm 121
+    I lift up my eyes to the hills. From where does my help come?
+
+    My help comes from the Lord, who made heaven and earth.
+
+    Psalm 121
 
 .. raw:: html
 

@@ -173,3 +173,121 @@ a > img {
     display: inline;
     vertical-align: text-bottom;
 }
+
+div.postindex article {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+}
+
+div.postindex article:last-child {
+    border-bottom: none;
+}
+
+article .section {
+    padding: 0;
+}
+
+time {
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #55acee;
+    box-shadow: 0 1px 2px #bbb;
+    display: block;
+    float: right;
+    font-size: 1em;
+    height: 7.2em;
+    overflow: hidden;
+    position: relative;
+    width: 7em;
+}
+
+time * {
+    display: block;
+    font-size: 1em;
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+time strong
+{
+    background-color: #55acee;
+    color: #fff;
+    padding: 0.4em 0;
+    position: absolute;
+    top: 0;
+}
+
+time em
+{
+    bottom: 0.2em;
+    color: #2A6496;
+    position: absolute;
+}
+
+time span
+{
+    color: #2f2f2f;
+    font-size: 2.8em;
+    letter-spacing: -0.05em;
+    padding-top: 0.7em;
+}
+
+.postindex time {
+    margin-top: -4.5em;
+}
+
+article blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+article blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    float: left;
+    font-size: 4em;
+    height: 0.1em;
+    line-height: 0.6em;
+    margin-right: 0.25em;
+}
+
+article blockquote:after {
+    color: #ccc;
+    content: close-quote;
+    float: right;
+    font-size: 4em;
+    height: 0.1em;
+    line-height: 0.4em;
+    margin-left: 0.25em;
+}
+
+article blockquote p:last-child {
+    text-align: right;
+    padding-right: 2em;
+}
+
+article blockquote p:first-child {
+    text-align: left;
+}
+
+.social-links li.reddit a:hover {
+    color: #ff4500;
+}
+
+.main-navigation .navbar-default .navbar-nav > li > a {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner-caption h1 {
+    font-size: 4em;
+}
+
+.lead {
+    font-size: 1.4em;
+}

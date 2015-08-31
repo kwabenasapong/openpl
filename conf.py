@@ -136,6 +136,7 @@ TIMEZONE = "UTC"
 # Date format used to display post dates.
 # (str used by datetime.datetime.strftime)
 # DATE_FORMAT = '%Y-%m-%d %H:%M'
+DATE_FORMAT = '%a %-d %b, %Y'
 
 # While nikola can select a sensible locale for each language,
 # sometimes explicit control can come handy.
@@ -389,7 +390,7 @@ REDIRECTIONS = []
 # "assets/css/code.css" this is ignored.
 # Can be any of autumn borland bw colorful default emacs friendly fruity manni
 # monokai murphy native pastie perldoc rrt tango trac vim vs
-# CODE_COLOR_SCHEME = 'default'
+CODE_COLOR_SCHEME = 'monokai'
 
 # If you use 'site-reveal' theme you can select several subthemes
 # THEME_REVEAL_CONFIG_SUBTHEME = 'sky'
@@ -408,8 +409,8 @@ REDIRECTIONS = []
 #     ("icon", "/icon_128x128.png", "128x128"),
 # }
 
-# Show only teasers in the index pages? Defaults to False.
-# INDEX_TEASERS = False
+# Show only teasers in the index pages? Defaults to False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -796,3 +797,6 @@ LOGGING_HANDLERS = {
 # Put in global_context things you want available on all your templates.
 # It can be anything, data, functions, modules, etc.
 GLOBAL_CONTEXT = {}
+
+# Make the index pages go the other way round
+INDEXES_STATIC = False
