@@ -15,4 +15,8 @@ $(function(){
         $("#download-section > div > div").hide().removeClass("hidden");
         $("#download-section > div > div." + target).show();
     });
+    $(".scrollToTop a").on('click', function(e) {
+       e.preventDefault();
+       $('html, body').animate({scrollTop: 0}, 300);
+    });
 });

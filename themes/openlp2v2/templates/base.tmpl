@@ -12,7 +12,7 @@ ${template_hooks['extra_head']()}
 % if permalink is not UNDEFINED and permalink == u'/index.html':
         <%include file="front_page.html"/>
 % else:
-        <div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+        <div class="scrollToTop"><a href="#" title="Scroll to top"><i class="fa fa-fw fa-arrow-up fa-lg"></i></a></div>
         <header class="header fixed clearfix navbar navbar-fixed-top">
             <div class="container">
                 <div class="row">
@@ -95,8 +95,9 @@ ${template_hooks['extra_head']()}
                     <div class="row">
                         <div class="col-md-12">
                             <p class="text-center">
-                                Copyright &copy; 2004-2015 OpenLP Developers. Theme based on <a href="http://htmlcoder.me/worthy-free-bootstrap-template">Worthy</a> by HTML Coder
-                                <script data-gratipay-username="OpenLP" src="//grtp.co/v1.js" async></script>
+                                Copyright &copy; 2004-2015 OpenLP Developers |
+                                Theme based on <a href="http://htmlcoder.me/worthy-free-bootstrap-template">Worthy</a> by HTML Coder |
+                                <i class="fa fa-fw fa-money"></i> <a href="/donate">Donate to OpenLP</a>
                             </p>
                         </div>
                     </div>

@@ -291,3 +291,16 @@ article blockquote p:first-child {
 .lead {
     font-size: 1.4em;
 }
+
+.scrollToTop {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.scrollToTop a {
+    text-decoration: none;
+}
