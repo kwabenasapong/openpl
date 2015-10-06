@@ -405,21 +405,40 @@
                         </div>
                         <div class="col-sm-6">
                             <div class="footer-content">
-                                <form role="form" id="footer-form">
+                                <div id="success-alert" class="hidden alert alert-success" role="alert">
+                                    <i class="fa fa-fw fa-check"></i> Your message has been sent! We'll get back to you as soon as we can.
+                                </div>
+                                <div id="error-alert" class="hidden alert alert-danger" role="alert">
+                                    <i class="fa fa-fw fa-exclamation-triangle"></i> Oh dear! Something went wrong while sending your message.
+                                </div>
+                                <form role="form" id="footer-form" method="post" action="/contact-us.php">
                                     <div class="form-group has-feedback">
-                                        <label class="sr-only" for="name2">Name</label>
-                                        <input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+                                        <label class="sr-only" for="name">Name</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
                                         <i class="fa fa-user form-control-feedback"></i>
                                     </div>
                                     <div class="form-group has-feedback">
-                                        <label class="sr-only" for="email2">Email address</label>
-                                        <input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
+                                        <label class="sr-only" for="email">Email address</label>
+                                        <input type="email" class="form-control" id="email" placeholder="E-mail address" name="email" required>
                                         <i class="fa fa-envelope form-control-feedback"></i>
                                     </div>
                                     <div class="form-group has-feedback">
-                                        <label class="sr-only" for="message2">Message</label>
-                                        <textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
+                                        <label class="sr-only" for="subject">Subject</label>
+                                        <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" required>
+                                        <i class="fa fa-comment form-control-feedback"></i>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <label class="sr-only" for="message">Message</label>
+                                        <textarea class="form-control" rows="8" id="message" placeholder="Message" name="message" required></textarea>
                                         <i class="fa fa-pencil form-control-feedback"></i>
+                                    </div>
+                                    <div class="checkbox has-feedback">
+                                        <label>
+                                            <input type="checkbox" name="me-too" value="1">&nbsp;&nbsp;Send me a copy
+                                        </label>
+                                    </div>
+                                    <div class="form-group has-feedback">
+                                        <div class="g-recaptcha" data-sitekey="6Lc7Hg4TAAAAALVlRY_kP29PpAFkF90UW1dVDgJR"></div>
                                     </div>
                                     <input type="submit" value="Send" class="btn btn-default">
                                 </form>

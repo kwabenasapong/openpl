@@ -304,3 +304,13 @@ article blockquote p:first-child {
 .scrollToTop a {
     text-decoration: none;
 }
+
+.checkbox input[type="checkbox"] {
+    margin-top: 0;
+}
+
+.checkbox > label {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.42857;
+}

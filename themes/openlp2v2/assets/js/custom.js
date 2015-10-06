@@ -19,4 +19,18 @@ $(function(){
        e.preventDefault();
        $('html, body').animate({scrollTop: 0}, 300);
     });
+    var queryParams = location.search.slice(1).split("&");
+    var params = {};
+    queryParams.forEach(function (value) {
+        var parts = value.split("=");
+        params[parts[0]] = parts[1];
+    });
+    if (params.hasOwnProperty("m")) {
+        if (params.m == 1) {
+            $("#success-alert").removeClass("hidden");
+        }
+        else if (params.m == 0) {
+            $("#error-alert").removeClass("hidden");
+        }
+    }
 });

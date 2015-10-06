@@ -676,6 +676,10 @@ COPY_SOURCES = False
         #<link href="css/style.css" rel="stylesheet">
         #<link href="css/custom.css" rel="stylesheet">
 #"""
+EXTRA_HEAD_DATA = """
+<script src='https://www.google.com/recaptcha/api.js'></script>
+"""
+
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
