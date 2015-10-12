@@ -48,7 +48,11 @@ ${template_hooks['extra_head']()}
                                                 <li><a href="/#testimonials">Testimonials</a></li>
                                                 <li><a href="/#support">Support</a></li>
                                                 <li><a href="https://forums.openlp.org/">Forums</a></li>
+% if permalink.startswith(u'/blog'):
                                                 <li class="active"><a href="/blog/">Blog</a></li>
+% else:
+                                                <li><a href="/blog/">Blog</a></li>
+% endif
                                             </ul>
                                         </div>
                                     </div>
