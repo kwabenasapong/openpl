@@ -5,7 +5,7 @@
 .. link:
 .. description:
 .. type: text
-.. previewimage: /cover-images/video-visual-history-openlp-2x.jpg
+.. previewimage: /cover-images/video-visual-history-openlp-2x.png
 
 Ever wanted to know how many developers work on OpenLP, or when OpenLP started, or even how many are working on the code
 at the same time? Well, now you can see this and more with the video above.
@@ -25,7 +25,7 @@ Enjoy!
 .. youtube:: 77a2iNvmvts
    :height: 315
    :width: 560
-   
+
 .. raw:: html
 
    </div>

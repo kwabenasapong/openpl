@@ -291,3 +291,26 @@ article blockquote p:first-child {
 .lead {
     font-size: 1.4em;
 }
+
+.scrollToTop {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+
+.scrollToTop a {
+    text-decoration: none;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-top: 0;
+}
+
+.checkbox > label {
+    color: #888;
+    font-size: 14px;
+    line-height: 1.42857;
+}

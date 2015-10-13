@@ -68,5 +68,8 @@ reap the rewards of your eathly work in Heaven.
 
 `Download Now! <http://openlp.org/en/download#development>`_
 
+[ Image Credit: `Road Ends 300 Ft. f/4 by Atomic Taco`_ ]
+
 .. |OpenLP Translations| image:: /pictures/openlp-22-translations.png
+.. _Road Ends 300 Ft. f/4 by Atomic Taco: https://www.flickr.com/photos/atomictaco/5409578523/
 

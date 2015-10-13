@@ -1,4 +1,4 @@
-.. title: Android 2 -(Alpha) Release through Google Play Store
+.. title: Android 2 (Alpha Release) through Google Play Store
 .. slug: 2015/06/05/android-2-alpha-release-through-google-play-store
 .. date: 2015-06-05 17:06:57 UTC
 .. tags:
@@ -29,4 +29,7 @@ The following functions are supported:
 
 The new version can be found at the `Google Play Store`_.
 
+[ Image Credit: `Android Lineup - Beige by Rob Bulmahn`_ ]
+
 .. _Google Play Store: https://play.google.com/store/apps/details?id=org.openlp.android2
+.. _Android Lineup - Beige by Rob Bulmahn: https://www.flickr.com/photos/rbulmahn/6180104944/
