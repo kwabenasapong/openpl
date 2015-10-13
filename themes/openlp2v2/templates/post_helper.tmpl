@@ -27,12 +27,12 @@
         <ul class="pager hidden-print">
         %if post.prev_post:
             <li class="previous">
-                <a href="${post.prev_post.permalink()[:-5]}" rel="prev" title="${post.prev_post.title()|h}">${messages("Previous post")}</a>
+                <a href="${post.prev_post.permalink()[:-5]}" rel="prev" title="${post.prev_post.title()|h}"><i class="fa fa-fw fa-chevron-left"></i> ${messages("Previous post")}</a>
             </li>
         %endif
         %if post.next_post:
             <li class="next">
-                <a href="${post.next_post.permalink()[:-5]}" rel="next" title="${post.next_post.title()|h}">${messages("Next post")}</a>
+                <a href="${post.next_post.permalink()[:-5]}" rel="next" title="${post.next_post.title()|h}">${messages("Next post")} <i class="fa fa-fw fa-chevron-right"></i></a>
             </li>
         %endif
         </ul>
