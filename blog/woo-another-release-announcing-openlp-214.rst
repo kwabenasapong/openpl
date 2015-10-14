@@ -5,6 +5,7 @@
 .. link:
 .. description:
 .. type: text
+.. previewimage: /cover-images/woo-another-release-announcing-openlp-214.jpg
 
 
    I press on toward the goal for the prize of the upward call of God in Christ Jesus.
@@ -54,5 +55,8 @@ A number of translations have been updated and nearing full coverage.
 
 **UPDATE:** All the files have been uploaded, and are available on the `Download`_ page.
 
+[ Image Credit: `Balloon release by Jennie Rainsford`_ ]
+
 .. _Download: http://openlp.org/en/download#dev-builds
+.. _Balloon release by Jennie Rainsford: https://www.flickr.com/photos/jennicatpink/3503569937/
 

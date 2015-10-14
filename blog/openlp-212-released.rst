@@ -18,7 +18,7 @@ Some of the most significant changes are:
 * Updated translations (now is the time to start translating OpenLP 2.2!)
 * Improved database upgrade to help with the migration from 2.0 to 2.2 series.
 
-The full list can be found at `https://launchpad.net/openlp/trunk/2.1.2`_
+The full list can be found at `Launchpad.net`_
 
 Important Notes
 ^^^^^^^^^^^^^^^
@@ -44,5 +44,7 @@ OpenLP's system requrements have been upgraded since the 2.0.5 release. We have 
 
     <p style="text-align: center; font-size: 150%;"><a href="http://openlp.org/download" title="Download OpenLP Now!">Download Now</a></p>
 
-.. _https://launchpad.net/openlp/trunk/2.1.2: https://launchpad.net/openlp/trunk/2.1.2
+[ Image Credit: `Lady Bird by Samuel Johnson`_ ]
 
+.. _Launchpad.net: https://launchpad.net/openlp/trunk/2.1.2
+.. _Lady Bird by Samuel Johnson: https://www.flickr.com/photos/samjuk/1129257862/

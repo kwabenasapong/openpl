@@ -49,7 +49,7 @@ This comes to roughly $8 per week. To be able to upgrade to the next level, we
 will need roughly $12.50 per week.
 
 
-[ Image Credit: `Oak Street Blues`_ ]
+[ Image Credit: `Tip Jar at Open Bar by Dave Dugdale`_ ]
 
 .. _contact form: /#support
 .. _Gratipay: https://gratipay.com/
@@ -58,5 +58,5 @@ will need roughly $12.50 per week.
 .. _Gandi.net's pricing page: https://www.gandi.net/domain/price/info
 .. _openlp.org: https://openlp.org/
 .. _openlp.io: https://openlp.io/
-.. _Oak Street Blues: https://www.flickr.com/photos/jamesvela/16914677777/
+.. _Tip Jar at Open Bar by Dave Dugdale: https://www.flickr.com/photos/davedugdale/5025601209/
 
