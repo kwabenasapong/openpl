@@ -76,3 +76,6 @@ OpenLP's system requrements have been upgraded since the 2.0.5 release. We have 
 
    <p style="text-align: center; font-size: 150%;"><a href="http://openlp.org/download" title="Download OpenLP Now!">Download Now</a></p>
 
+[ Image Credit: `Code by Michael Himbeault`_ ]
+
+.. _Code by Michael Himbeault: https://www.flickr.com/photos/riebart/4466482623/

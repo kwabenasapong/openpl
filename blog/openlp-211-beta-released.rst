@@ -41,4 +41,8 @@ OpenLP's system requrements have been upgraded since the 2.0.5 release. Please t
 
 `Download Now`_
 
+[ Image Credit: `Beta by Simon Cunningham`_ ]
+
 .. _Download Now: /#download
+.. _Beta by Simon Cunningham: https://www.flickr.com/photos/lendingmemo/11438453434/
+
