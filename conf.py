@@ -677,7 +677,8 @@ COPY_SOURCES = False
         #<link href="css/custom.css" rel="stylesheet">
 #"""
 EXTRA_HEAD_DATA = """
-<script src='https://www.google.com/recaptcha/api.js'></script>
+    <link href="/assets/css/ekko-lightbox.css" rel="stylesheet">
+    <script src='//www.google.com/recaptcha/api.js'></script>
 """
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
@@ -691,6 +692,9 @@ EXTRA_HEAD_DATA = """
         #<script type="text/javascript" src="js/template.js"></script>
         #<script type="text/javascript" src="js/custom.js"></script>
 #"""
+BODY_END = """
+    <script type="text/javascript" src="/assets/js/ekko-lightbox.js"></script>
+"""
 
 # The possibility to extract metadata from the filename by using a
 # regular expression.
