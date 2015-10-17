@@ -1,0 +1,1 @@
+Don't delete this directory! It's used to store the download.cfg file for the First Time Wizard.
