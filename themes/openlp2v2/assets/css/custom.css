@@ -319,8 +319,8 @@ p.indent {
     margin-left: 3em;
 }
 
-a.screenshot-gallery {
-    display: block;
+div.screenshot {
     border-radius: 6px;
     border: 4px solid #efefef;
+    margin: 0 10px;
 }

@@ -103,6 +103,9 @@ Internals
 Important Notes
 ^^^^^^^^^^^^^^^
 
+Incompatibilities
+-----------------
+
 **OpenLP 2.2 is not backwards compatible with 2.0.5.**
 
 **Service Files created in 2.2 cannot be opened in 2.0.**
@@ -112,6 +115,9 @@ startup, but it is recommended that you make your own backup too.
 
 Upgrading from versions of OpenLP before 2.0.5 are not supported. You need to upgrade to 2.0.5 first, and make sure
 you run OpenLP at least once before continuing to upgrade to 2.2.
+
+Known Issues
+------------
 
 There are some known issues in OpenLP 2.2 that you should know about before upgrading:
 
@@ -131,7 +137,7 @@ As leader of the project, I'd like to say a special thank you to the folks invol
 
 .. raw:: html
 
-    <div class="text-center"><p><a class="btn btn-success btn-lg" href="/#download"><strong>Download Now</strong></a></p></div>
+    <div class="text-center"><p><a class="btn btn-success btn-lg" href="/#downloads"><strong>Download Now</strong></a></p></div>
 
 [ Image Credit: `Thai Lanterns by Mark Fischer`_ ]
 
