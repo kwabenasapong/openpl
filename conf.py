@@ -408,6 +408,9 @@ CODE_COLOR_SCHEME = 'monokai'
 #     ("icon", "/favicon.ico", "16x16"),
 #     ("icon", "/icon_128x128.png", "128x128"),
 # }
+FAVICONS = {
+    ('icon', '/favicon.png', '16x16,24x24,32x32,48x48,64x64')
+}
 
 # Show only teasers in the index pages? Defaults to False
 INDEX_TEASERS = True

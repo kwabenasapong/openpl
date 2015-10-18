@@ -7,5 +7,5 @@ fi
 $NIKOLA clean
 $NIKOLA build
 cd output
-rsync -r -a -v -z -e ssh * openlp@openlp.org:public_html/beta/
+rsync -r -a -v -z -e ssh * openlp@openlp.org:public_html/
 cd ..

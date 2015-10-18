@@ -103,6 +103,9 @@ Internals
 Important Notes
 ^^^^^^^^^^^^^^^
 
+Incompatibilities
+-----------------
+
 **OpenLP 2.2 is not backwards compatible with 2.0.5.**
 
 **Service Files created in 2.2 cannot be opened in 2.0.**
@@ -113,10 +116,14 @@ startup, but it is recommended that you make your own backup too.
 Upgrading from versions of OpenLP before 2.0.5 are not supported. You need to upgrade to 2.0.5 first, and make sure
 you run OpenLP at least once before continuing to upgrade to 2.2.
 
+Known Issues
+------------
+
 There are some known issues in OpenLP 2.2 that you should know about before upgrading:
 
 1. Live Backgrounds does not work on Windows and Mac OS X
 2. Playback of linked audio does not work on Mac OS X
+3. OpenLP on Linux will not start up if VLC is not installed. Simply install VLC to get around this problem.
 
 We plan to fix these issues in OpenLP 2.4. We're moving to a faster release cycle, which means that OpenLP 2.4 should be released in 6 to 12 months from now.
 
@@ -131,7 +138,7 @@ As leader of the project, I'd like to say a special thank you to the folks invol
 
 .. raw:: html
 
-    <div class="text-center"><p><a class="btn btn-success btn-lg" href="/#download"><strong>Download Now</strong></a></p></div>
+    <div class="text-center"><p><a class="btn btn-success btn-lg" href="/#downloads"><strong>Download Now</strong></a></p></div>
 
 [ Image Credit: `Thai Lanterns by Mark Fischer`_ ]
 
