@@ -123,6 +123,7 @@ There are some known issues in OpenLP 2.2 that you should know about before upgr
 
 1. Live Backgrounds does not work on Windows and Mac OS X
 2. Playback of linked audio does not work on Mac OS X
+3. OpenLP on Linux will not start up if VLC is not installed. Simply install VLC to get around this problem.
 
 We plan to fix these issues in OpenLP 2.4. We're moving to a faster release cycle, which means that OpenLP 2.4 should be released in 6 to 12 months from now.
 
