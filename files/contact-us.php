@@ -60,7 +60,7 @@ else {
 // Get everything together
 $headers['From'] = $_POST['name'] . ' <' . $_POST['email'] . '>';
 $headers['To'] = 'support@openlp.org';
-$headers['Subject'] = $_POST['subject'];
+$headers['Subject'] = '[Contact Form] ' . $_POST['subject'];
 $body = $_POST['message'];
 $recipients = 'support@openlp.org';
 if ($_POST['me-too']) {
