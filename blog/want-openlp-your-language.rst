@@ -1,5 +1,5 @@
 .. title: Want OpenLP in Your Language?
-.. slug: want-openlp-your-language
+.. slug: 2015/10/03/want-openlp-your-language
 .. date: 2015-10-03 01:17:00 UTC
 .. tags:
 .. category:
