@@ -49,7 +49,7 @@ Fixing the Problem
 **To change language on Windows:**
 
 1. Click on Start, Run
-2. Type in "regedit.exe" and press Enter
+2. Type in ``regedit.exe`` and press Enter
 3. Navigate down the tree to the OpenLP folder which is located at: ``HKEY_CURRENT_USER\Software\OpenLP\OpenLP\core``
 4. Click the attribute ``language`` and change it to ``en`` for English
 5. Save and close the Registry Editor
@@ -66,16 +66,12 @@ Fixing the Problem
 
 **To change language on Mac OS X:**
 
-1. Open Finder and go to your home folder
-2. In the menu, click on *View* > *Show View Options*, or press ``Cmd+J``
-3. Make sure *Show Library Folder* is checked
-4. Close the view options and find the ``Library`` folder
-5. In the ``Library`` folder, open the ``Preferences`` folder
-6. Command-click (or right-click) on ``org.openlp.OpenLP.plist``
-7. Select *Open With* and then *Prefs Editor*
-8. Scroll down to ``core.language``, click on the value and set it to ``en``
-9. Close and quit *Prefs Editor*
-10. Start OpenLP
+1. Open Finder and go to *Applications*
+2. In *Applications*, open the *Utilities* folder
+3. Open the *Terminal* application, this will open up a command prompt
+4. Type in ``defaults write org.openlp.OpenLP core.language en`` exactly as you see it here, and press <Enter>
+5. Close *Terminal*
+6. Start OpenLP
 
 VLC On Linux
 ^^^^^^^^^^^^
