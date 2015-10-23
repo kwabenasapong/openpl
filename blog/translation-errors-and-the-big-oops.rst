@@ -1,6 +1,6 @@
 .. title: Translation Errors and The Big Oops
-.. slug: 2015/10/22/translation-errors-and-the-big-oops
-.. date: 2015-10-22 21:03:45 UTC
+.. slug: 2015/10/23/translation-errors-and-the-big-oops
+.. date: 2015-10-21 19:00:00 UTC
 .. tags:
 .. category:
 .. link:
