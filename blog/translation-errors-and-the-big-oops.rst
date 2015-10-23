@@ -176,7 +176,9 @@ fix it.
 
 Thanks for your patience and your support!
 
-[ Image Credit: ``_ ]
+[ Image Credit: `Coccinella - Lady bug, Macro`_ ]
 
 .. _download and install VLC: http://videolan.org/
-.. _project on Transifex: 
+.. _project on Transifex: https://www.transifex.com/openlp/openlp/openlp-22x/
+.. _Coccinella - Lady bug, Macro: https://www.flickr.com/photos/ainet/2599394171/
+
