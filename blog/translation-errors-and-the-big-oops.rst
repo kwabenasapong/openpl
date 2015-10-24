@@ -148,6 +148,8 @@ Fixing the Problem
 The fix for this is really easy. We've already re-built OpenLP for Windows with a fix. Just re-download OpenLP and
 re-install it.
 
+*NB* Make sure your are using the 32-bit version of VLC. OpenLP on Windows is a 32-bit application.
+
 Missing Media Player
 ^^^^^^^^^^^^^^^^^^^^
 In some instances you might find that you cannot play any videos.
@@ -162,6 +164,8 @@ Fixing the Problem
 ------------------
 Some of the older built-in media players aren't currently supported in Windows and Mac OS X. If you encounter this,
 simply `download and install VLC`_, restart OpenLP, and you should be able to select VLC as your media player.
+
+*NB* Make sure your are using the 32-bit version of VLC. OpenLP on Windows is a 32-bit application.
 
 Rolling out Fixes
 ^^^^^^^^^^^^^^^^^
