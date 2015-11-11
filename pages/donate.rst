@@ -9,10 +9,11 @@ entirely funded by the personal funds of the developers. We have a number of
 fixed costs, like server hosting, domain names, and the like. If you'd like to
 help us out, please consider donating to our cause.
 
-There are two types of donation:
+There are three types of donations:
 
 1. Once-off donations
 2. Regular donations
+3. Buy swag
 
 Once-off Donations
 ^^^^^^^^^^^^^^^^^^
@@ -34,7 +35,15 @@ Set up your donation by clicking on the badge below.
 
     <script data-gratipay-username="openlp" src="//grtp.co/v1.js" async></script>
 
-Monthly Costs
+Buy Swag
+^^^^^^^^
+One other way you can help us financially is by buying stuff from our online
+store. There are T-shirts, cups, hats, USB drives, and other things for sale,
+and a small percentage of the proceeds goes toward OpenLP.
+
+The store has been set up on Zazzle: `OpenLP Merchandise Store`_
+
+Regular Costs
 ^^^^^^^^^^^^^
 Here's a breakdown of our regular costs:
 
@@ -53,6 +62,7 @@ will need roughly $12.50 per week.
 
 .. _contact form: /#support
 .. _Gratipay: https://gratipay.com/
+.. _OpenLP Merchandise Store: https://www.zazzle.com/openlp
 .. _VPS from Linode.com: https://www.linode.com/pricing
 .. _backup service: https://www.linode.com/backups
 .. _Gandi.net's pricing page: https://www.gandi.net/domain/price/info
