@@ -29,11 +29,13 @@ regular donations. Gratipay works on a weekly schedule, so calculate what you
 want to donate on a monthly basis and basically divide it by 4. Gratipay works
 through PayPal, so all you need is a PayPal account.
 
-Set up your donation by clicking on the badge below.
+Set up your donation by clicking on the button below.
 
 .. raw:: html
 
-    <script data-gratipay-username="openlp" src="//grtp.co/v1.js" async></script>
+    <a href="https://gratipay.com/openlp">
+      <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png"/>
+    </a>
 
 Buy Swag
 ^^^^^^^^
