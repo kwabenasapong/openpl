@@ -33,9 +33,13 @@ Set up your donation by clicking on the button below.
 
 .. raw:: html
 
-    <a href="https://gratipay.com/openlp">
-      <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png"/>
-    </a>
+    <p>
+        <a href="https://gratipay.com/openlp">
+            <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png"/>
+        </a>
+    </p>
+
+*Currently, after payment fees, we are receiving US$ 0.05 per week.*
 
 Buy Swag
 ^^^^^^^^
