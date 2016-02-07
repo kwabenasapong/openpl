@@ -40,6 +40,10 @@ Translations
 The latest translations have been included so these are close to being the final version for 2.4. More help is always
 needed to improve the scope of our translations.
 
+Download
+--------
+
+To download and test out OpenLP 2.3.3, go to the `downloads page`_ of our `development website`_.
 
     I press on toward the goal to win the prize for which God has called me heavenward in Christ Jesus.
 
@@ -58,5 +62,7 @@ needed to improve the scope of our translations.
 .. _#1533280: https://bugs.launchpad.net/openlp/+bug/1533280
 .. _#1537212: https://bugs.launchpad.net/openlp/+bug/1537212
 .. _#1533246: https://bugs.launchpad.net/openlp/+bug/1533246
+.. _downloads page: https://openlp.io/downloads.html
+.. _development website: https://openlp.io/
 .. _Finish Line by jayneandd: https://www.flickr.com/photos/jayneandd/4450623309/
 
