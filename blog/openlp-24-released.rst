@@ -21,11 +21,15 @@ move fast.
 
 Known issues
 ------------
-Because we had to move fast it also meant that some of the issues we discovered while upgrading to the latest Qt
-version could not be solved within the limited timeframe. These issues are only seen on Windows and Mac OS X and relate
-to the use of transparent themes, and cause the presentation display not to update correctly. We have  also spotted
-some issues with the webkit player, which is used for live backgrounds, and again this is only seen on Windows and Mac
-OS X. So if you need these features, we recommand skipping OpenLP 2.4 and waiting for OpenLP 2.6.
+Moving so quickly also meant that some of the issues we discovered while upgrading to the latest Qt version could not
+be solved within the limited timeframe. These issues are only seen on Windows and Mac OS X and relate to the use of
+transparent themes, and cause the presentation display not to update correctly. We have also spotted some issues with
+the webkit player, which is used for live backgrounds, and again is only seen on Windows and Mac OS X. If you need to
+use these features, we recommend skipping OpenLP 2.4 and waiting for OpenLP 2.6.
+
+As with any upgrade, make sure you backup your data before upgrading to OpenLP 2.4. This way you can always revert to
+the previous version of OpenLP without losing your data should you be negatively affected by these issues. You can
+follow the instructions in our manual on `how to backup your data`_.
 
 Bugs we've fixed in OpenLP 2.4
 ------------------------------
@@ -89,6 +93,7 @@ and tell us where you're from and how OpenLP is helping your church worship the 
 
    <abbr title="support (at) openlp.org">e-mail</abbr>
 
+.. _how to backup your data: http://manual.openlp.org/backing_up.html
 .. _#1544263: https://bugs.launchpad.net/openlp/+bug/1544263
 .. _#1531319: https://bugs.launchpad.net/openlp/+bug/1531319
 .. _#1404669: https://bugs.launchpad.net/openlp/+bug/1404669
