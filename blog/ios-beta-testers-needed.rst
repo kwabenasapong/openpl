@@ -1,6 +1,6 @@
 .. title: iOS Beta Testers Needed
-.. slug: 2016/03/28/ios-beta-testers-needed
-.. date: 2016-03-28 18:00:00 UTC
+.. slug: 2016/03/29/ios-beta-testers-needed
+.. date: 2016-03-29 16:00:00 UTC
 .. tags:
 .. category:
 .. link:
@@ -18,15 +18,20 @@ installed and your e-mail address has been activated against OpenLP, you will be
 OpenLP Remote.
 
 Once the OpenLP Remote is installed, you will be able to test it out and give us feedback on how to improve the app.
+Please send all feedback to our `support e-mail address`_.
 
 If you are interested in becoming a beta tester please fill out `this application form`_ and we will add you to our
 list of beta testers, while we still have space. Further instructions will for the beta tester process will be
 available once you have completed the form.
+
+Once we've gathered all the feedback and fixed up any bugs that have arisen, we will release the OpenLP Remote for
+iOS to everyone.
 
 Thank you for the interest.
 
 [ Image Credit: `iPhone 6+ Curved Glass by Omar Jordan Fawahl`_ ]
 
 .. _TestFlight: https://itunes.apple.com/us/app/testflight/id899247664?mt=8
+.. _support e-mail address: /#support
 .. _this application form: http://goo.gl/forms/HBFkQu2CfB
 .. _iPhone 6+ Curved Glass by Omar Jordan Fawahl: https://www.flickr.com/photos/omarjordanf/15231860837/
