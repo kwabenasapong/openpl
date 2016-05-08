@@ -73,5 +73,6 @@ Screenshots
       </div>
     </div>
 
-[ Image Credit: ]
+[ Image Credit: `iPhone 6 by Olle Eriksson`_ ]
 
+.. _iPhone 6 by Olle Eriksson: https://www.flickr.com/photos/39894986@N02/16071393398/
