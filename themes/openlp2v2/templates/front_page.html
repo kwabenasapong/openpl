@@ -82,7 +82,7 @@
                                 <ul class="list-unstyled">
                                     <li><i class="fa fa-caret-right pr-10 text-colored"></i> Cross platform between Linux, Windows, OS X and FreeBSD</li>
                                     <li><i class="fa fa-caret-right pr-10 text-colored"></i> Display songs, Bible verses, presentations, images and more</li>
-                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Control OpenLP remotely via the Android app or mobile web browser</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Control OpenLP remotely via the Android remote, iOS remote or mobile web browser</li>
                                     <li><i class="fa fa-caret-right pr-10 text-colored"></i> Quickly and easily import songs from other popular presentation packages</li>
                                     <li><i class="fa fa-caret-right pr-10 text-colored"></i> Easy enough to use to get up and running in less than 10 minutes</li>
                                 </ul>
@@ -116,9 +116,9 @@
                                    without needing to touch the computer.
                                 </p>
                                 <p class="indent">
-                                   For those with Android devices there is a native Android app available on the Play
-                                   Store, to download for free. It has all the same features as the web app, packed into
-                                   a native application.
+                                   For those with Android or iOS devices there is an Android and an iOS app available on
+                                   the Google Play Store and the Apple App Store, to download for free. They have all the
+                                   same features as the web app, packed into a native application.
                                 </p>
                             </div>
                         </div>
@@ -127,27 +127,27 @@
                 <div class="space"></div>
                 <div class="row">
                     <h2 class="text-center"><i class="fa fw fa-desktop"></i> Screenshots</h2>
-                    <div class="col-md-offset-2 col-md-8">
+                    <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
                         <div class="space"></div>
                         <div class="row">
-                            <div class="col-sm-3">
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="/screenshots/mainwindow.png" data-toggle="lightbox" data-gallery="screenshots" data-title="Control OpenLP from the Main Window">
-                                    <img src="/screenshots/mainwindow.png" class="img-responsive">
+                                    <img src="/screenshots/mainwindow.png" class="img-responsive img-thumbnail">
                                 </a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="/screenshots/songimporterchoices.png" data-toggle="lightbox" data-gallery="screenshots" data-title="Import Songs from Many Formats">
-                                    <img src="/screenshots/songimporterchoices.png" class="img-responsive">
+                                    <img src="/screenshots/songimporterchoices.png" class="img-responsive img-thumbnail">
                                 </a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="/screenshots/song_edit_verse_in_use.png" data-toggle="lightbox" data-gallery="screenshots" data-title="Editing a Song">
-                                    <img src="/screenshots/song_edit_verse_in_use.png" class="img-responsive">
+                                    <img src="/screenshots/song_edit_verse_in_use.png" class="img-responsive img-thumbnail">
                                 </a>
                             </div>
-                            <div class="col-sm-3">
+                            <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3">
                                 <a href="/screenshots/stage_view_song_w_note.png" data-toggle="lightbox" data-gallery="screenshots" data-title="Browser-based Stage View">
-                                    <img src="/screenshots/stage_view_song_w_note.png" class="img-responsive">
+                                    <img src="/screenshots/stage_view_song_w_note.png" class="img-responsive img-thumbnail">
                                 </a>
                             </div>
                         </div>
@@ -220,11 +220,11 @@
                         </div>
                         <div class="media">
                             <div class="media-left">
-                                <i class="fa fa-android"></i>
+                                <i class="fa fa-wifi"></i>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Android Remote</h4>
-                                <p>Control OpenLP remotely using any tablet or phone running Android using our App in the Google Play Store. Search, go live, control slides, and more. Also accessible via any phone's web browser.</p>
+                                <h4 class="media-heading">Android/iOS Remote</h4>
+                                <p>Control OpenLP remotely using any tablet or phone using our remote apps in the Google Play Store and Apple App Store. Search, go live, control slides, and more. Also accessible via any phone's web browser.</p>
                             </div>
                         </div>
                         <div class="media">
@@ -243,8 +243,14 @@
         <div class="default-bg space blue">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="text-center">Get the Android Remote &nbsp;&nbsp;<a href="https://play.google.com/store/apps/details?id=org.openlp.android2"><img alt="Android app on Google Play" src="/google-play-badge.png" width="150"></a></h1>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col-md-offset-3 col-lg-offset-3 text-center">
+                       <a href="https://play.google.com/store/apps/details?id=org.openlp.android2"><img alt="Android app on Google Play" src="/google-play-badge.png" style="height: 40px"></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                       <a href="https://f-droid.org/repository/browse/?fdid=org.openlp.android2"><img alt="Android app on F-Droid" src="/f-droid-badge.png" style="height: 40px"></a>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 text-center">
+                       <a href="https://itunes.apple.com/us/app/openlp-remote/id1096218725?mt=8" title="Download on the App Store"><img src="/app-store-badge.png"></a>
                     </div>
                 </div>
             </div>
@@ -509,12 +515,13 @@
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                                 <ul class="social-links">
-                                    <li class="googleplus"><a target="_blank" href="https://plus.google.com/b/117120749304988900189/117120749304988900189" title="Follow us on Google+"><i class="fa fa-google-plus-square"></i></a></li>
-                                    <li class="facebook"><a target="_blank" href="https://www.facebook.com/openlp" title="Follow us on Facebook"><i class="fa fa-facebook-square"></i></a></li>
-                                    <li class="twitter"><a target="_blank" href="https://twitter.com/openlp" title="Follow us on Twitter"><i class="fa fa-twitter-square"></i></a></li>
-                                    <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCUFB_m4mbkUKROrbO6CxJtQ" title="Follow us on YouTube"><i class="fa fa-youtube-square"></i></a></li>
-                                    <li class="reddit"><a target="_blank" href="https://www.reddit.com/r/openlp" title="Follow us on Reddit"><i class="fa fa-reddit-square"></i></a></li>
-                                    <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/grp/home?gid=96031" title="Follow us on LinkedIn"><i class="fa fa-linkedin-square"></i></a></li>
+                                    <li class="googleplus"><a target="_blank" href="https://plus.google.com/b/117120749304988900189/117120749304988900189" title="Follow us on Google+"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="facebook"><a target="_blank" href="https://www.facebook.com/openlp" title="Follow us on Facebook"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="twitter"><a target="_blank" href="https://twitter.com/openlp" title="Follow us on Twitter"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="youtube"><a target="_blank" href="https://www.youtube.com/channel/UCUFB_m4mbkUKROrbO6CxJtQ" title="Follow us on YouTube"><i class="fa fa-youtube"></i></a></li>
+                                    <li class="reddit"><a target="_blank" href="https://www.reddit.com/r/openlp" title="Follow us on Reddit"><i class="fa fa-reddit-alien"></i></a></li>
+                                    <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/grp/home?gid=96031" title="Follow us on LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="telegram"><a target="_blank" href="https://telegram.me/openlp" title="Follow us on Telegram"><i class="fa fa-paper-plane"></i></a></li>
                                 </ul>
                         </div>
                         <!-- /div>

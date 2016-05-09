@@ -279,11 +279,15 @@ article blockquote p:first-child {
     margin-left: auto;
     margin-right: auto;
     padding-left: 36px;
-    width: 387px;
+    width: 463px;
 }
 
 .social-links li.reddit a:hover {
     color: #ff4500;
+}
+
+.social-links li.telegram a:hover {
+    color: #0088cc;
 }
 
 .main-navigation .navbar-default .navbar-nav > li > a {
