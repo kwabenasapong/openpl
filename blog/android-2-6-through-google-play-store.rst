@@ -22,7 +22,6 @@ The following changes have been implemented since the previous release:
 
 The new version can be found at the `Google Play Store`_.
 
-[ Image Credit: `Android Lineup - Beige by Rob Bulmahn`_ ]
+[ Image Credit: `Autumn at Sheffield Park - by Tim Bentley`_ ]
 
 .. _Google Play Store: https://play.google.com/store/apps/details?id=org.openlp.android2
-.. _Autumn at Sheffield Park - by Tim Bentley: 
