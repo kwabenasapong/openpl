@@ -1,6 +1,6 @@
 .. title: OpenLP 2.4.4 Released
 .. slug: 2016/11/27/openlp-244-released
-.. date: 2016-11-27 12:00:00 UTC
+.. date: 2016-11-27 16:00:00 UTC
 .. tags:
 .. category:
 .. link:
