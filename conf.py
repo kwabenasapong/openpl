@@ -682,6 +682,24 @@ RSS_TEASERS = False
 EXTRA_HEAD_DATA = """
     <link href="/assets/css/ekko-lightbox.css" rel="stylesheet">
     <script src='//www.google.com/recaptcha/api.js'></script>
+    <script type='text/javascript'>
+    var Countly = Countly || {};
+    Countly.q = Countly.q || [];
+    Countly.app_key = "53ec944e2cab9356d3577dd1e260dc113fbf210f";
+    Countly.url = "https://stats.openlp.io"; 
+    Countly.q.push(['track_sessions']);
+    Countly.q.push(['track_pageview']);
+      
+    //load countly script asynchronously
+    (function() {
+        var cly = document.createElement('script'); cly.type = 'text/javascript'; 
+        cly.async = true;
+        //enter url of script here
+        cly.src = 'https://cdn.jsdelivr.net/countly-sdk-web/latest/countly.min.js';
+        cly.onload = function(){Countly.init()};
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(cly, s);
+    })();
+    </script>
 """
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
