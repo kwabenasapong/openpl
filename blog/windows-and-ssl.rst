@@ -89,7 +89,10 @@ websites you've already visited in those browsers.
 
 For more information, take a look at the `bug report in Python's bug tracker`_.
 
+[ Image Credit: `Plios windows 09 by Michael Clarke`_ ]
+
 .. _Facebook page: htps://www.facebook.com/openlp/
 .. _some folks on the forums: https://forums.openlp.org/discussion/comment/9885/#Comment_9885
 .. _SongSelect: https://songselect.ccli.com/
 .. _bug report in Python's bug tracker: http://bugs.python.org/issue20916
+.. _Plios windows 09 by Michael Clarke: https://www.flickr.com/photos/michaelclarke/4127641881/
