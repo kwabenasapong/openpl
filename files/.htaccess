@@ -1,13 +1,13 @@
 RewriteEngine on
 # Remove www from URL
-RewriteCond %{HTTP_HOST} ^www.openlp.org$ [NC]
-RewriteCond %{HTTPS_HOST} ^www.openlp.org$ [NC]
-RewriteRule ^(.*)$ https://openlp.org/$1 [R=301,L]
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 # Redirect HTTP to HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # Some old URLs start with "en", just drop it
-RewriteRule ^en/(.*)$ $1 [R=301,L]
+RewriteRule ^en/(.*)$ /$1 [R=301,L]
 # Make .html optional
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
