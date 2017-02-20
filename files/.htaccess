@@ -1,6 +1,7 @@
 RewriteEngine on
 # Remove www from URL
 RewriteCond %{HTTP_HOST} ^www.openlp.org$ [NC]
+RewriteCond %{HTTPS_HOST} ^www.openlp.org$ [NC]
 RewriteRule ^(.*)$ https://openlp.org/$1 [R=301,L]
 # Redirect HTTP to HTTPS
 RewriteCond %{HTTPS} off
