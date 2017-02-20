@@ -48,9 +48,10 @@ unfortunately it is something that we don't have control over. Having said that,
     the latest version, we'll tell you to upgrade before helping you.
   </p>
 
-If you're running into this problem while running the First Time Wizard, you need to open up Internet Explorer and
-visit `https://get.openlp.org/ <https://get.openlp.org/>`_. This forces Windows to download a file that OpenLP needs.
-Once you've opened up the web page, you can close it and go back to OpenLP and retry the First Time Wizard. 
+If you're running into this problem while running the First Time Wizard, you need to open up Internet Explorer (yes,
+it **must** be Internet Explorer) and visit `https://get.openlp.org/ <https://get.openlp.org/>`_. This forces Windows
+to download a file that OpenLP needs. Once you've opened up the web page, you can close it and go back to OpenLP and
+retry the First Time Wizard. 
 
 If you're running into the problem where you can't seem to log in to the SongSelect importer, you need to open up
 Internet Explorer and visit `SongSelect`_. Again, this forces Windows to download a file that OpenLP needs, and you
