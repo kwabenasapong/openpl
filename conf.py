@@ -702,6 +702,8 @@ EXTRA_HEAD_DATA = """
         s.parentNode.insertBefore(cly, s);
     })();
     </script>
+    <script type="text/javascript">window.liveSettings={api_key:"2c307f8400684f0595b35e8101f9fc8a"};</script>
+    <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
 """
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
