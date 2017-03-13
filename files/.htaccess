@@ -8,6 +8,8 @@ RewriteCond %{HTTPS} off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 # Some old URLs start with "en", just drop it
 RewriteRule ^en/(.*)$ /$1 [R=301,L]
+# Some old URLs that are still linked to
+RewriteRule ^contribute$ http://manual.openlp.org/faq.html#can-i-help-with-openlp [R=301,L]
 # Make .html optional
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
