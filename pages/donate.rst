@@ -4,9 +4,8 @@
 .. type: text
 .. previewimage: /cover-images/donate.jpg
 
-Like most other voluntary open source projects, OpenLP has no income and is
-entirely funded by the personal funds of the developers. We have a number of
-fixed costs, like server hosting, domain names, and the like. If you'd like to
+Like most other voluntary open source projects, OpenLP has no income and is entirely funded by the personal funds of
+the developers. We have a number of fixed costs, like server hosting, domain names, and the like. If you'd like to
 help us out, please consider donating to our cause.
 
 There are three types of donations:
@@ -17,17 +16,15 @@ There are three types of donations:
 
 Once-off Donations
 ^^^^^^^^^^^^^^^^^^
-Once-off donations are gratefully accepted. Donations can be made via PayPal.
-To send a once-off donatation to OpenLP, send an e-mail via our `contact form`_
-and we will reply with the Paypal address.
+Once-off donations are gratefully accepted. You can donate by going to `https://www.paypal.me/raoulsnyman`_. You don't
+need a PayPal account.
 
 Regular Donations
 ^^^^^^^^^^^^^^^^^
-While once-off donations are nice, regular donations are much more useful to us.
-They help to cover our month-to-month costs. We use `Gratipay`_ for automated
-regular donations. Gratipay works on a weekly schedule, so calculate what you
-want to donate on a monthly basis and basically divide it by 4. Gratipay works
-through PayPal, so all you need is a PayPal account.
+While once-off donations are nice, regular donations are much more useful to us. They help to cover our month-to-month
+costs. We use `Gratipay`_ for automated regular donations. Gratipay works on a weekly schedule, so calculate what you
+want to donate on a monthly basis and basically divide it by 4. Gratipay works through PayPal, so all you need is a
+PayPal account.
 
 Set up your donation by clicking on the button below.
 
@@ -39,13 +36,12 @@ Set up your donation by clicking on the button below.
         </a>
     </p>
 
-*Currently, after payment fees, we are receiving US$ 0.05 per week.*
+*Currently, after payment fees, we are receiving around US$ 9.00 per week.*
 
 Buy Swag
 ^^^^^^^^
-One other way you can help us financially is by buying stuff from our online
-store. There are T-shirts, cups, hats, USB drives, and other things for sale,
-and a small percentage of the proceeds goes toward OpenLP.
+One other way you can help us financially is by buying stuff from our online store. There are T-shirts, cups, hats,
+USB drives, and other things for sale, and all proceeds go to OpenLP.
 
 The store has been set up on Zazzle: `OpenLP Merchandise Store`_
 
@@ -53,15 +49,12 @@ Regular Costs
 ^^^^^^^^^^^^^
 Here's a breakdown of our regular costs:
 
-1. $20/month for a `VPS from Linode.com`_, which we'd like to upgrade to the
-   next level, which will cost us $40/month.
+1. $20/month for a `VPS from Linode.com`_, which we'd like to upgrade to the next level, which will cost us $40/month.
 2. $10/month for a `backup service`_, also from Linode.com.
-3. $17/year for our main domain, `openlp.org`_. See `Gandi.net's pricing page`_
-   for information on domain name costs.
+3. $17/year for our main domain, `openlp.org`_. See `Gandi.net's pricing page`_ for information on domain name costs.
 4. $35/year for our developer domain, `openlp.io`_.
 
-This comes to roughly $8 per week. To be able to upgrade to the next level, we
-will need roughly $12.50 per week.
+This comes to roughly $8 per week. To be able to upgrade to the next level, we will need roughly $12.50 per week.
 
 
 [ Image Credit: `Tip Jar at Open Bar by Dave Dugdale`_ ]
