@@ -16,7 +16,7 @@ There are three types of donations:
 
 Once-off Donations
 ^^^^^^^^^^^^^^^^^^
-Once-off donations are gratefully accepted. You can donate by going to `https://www.paypal.me/raoulsnyman`_. You don't
+Once-off donations are gratefully accepted. You can donate by going to `paypal.me/raoulsnyman`_. You don't
 need a PayPal account.
 
 Regular Donations
@@ -59,7 +59,7 @@ This comes to roughly $8 per week. To be able to upgrade to the next level, we w
 
 [ Image Credit: `Tip Jar at Open Bar by Dave Dugdale`_ ]
 
-.. _contact form: /#support
+.. _paypal.me/raoulsnyman: https://www.paypal.me/raoulsnyman 
 .. _Gratipay: https://gratipay.com/
 .. _OpenLP Merchandise Store: https://www.zazzle.com/openlp
 .. _VPS from Linode.com: https://www.linode.com/pricing
