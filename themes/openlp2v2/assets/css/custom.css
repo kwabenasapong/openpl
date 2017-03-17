@@ -275,13 +275,6 @@ article blockquote p:first-child {
     text-align: left;
 }
 
-.social-links {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 36px;
-    width: 463px;
-}
-
 .social-links li.reddit a:hover {
     color: #ff4500;
 }
