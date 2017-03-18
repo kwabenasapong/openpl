@@ -7,6 +7,12 @@ Created:November 2014
 License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
 File Description: Place here your custom CSS styles
 */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.90);
+    }
+}
+
 .bg-image-1 {
     background: url("../images/worship-1.jpg") 50% 0px no-repeat;
 }
@@ -278,6 +284,15 @@ article blockquote p:last-child {
 
 article blockquote p:first-child {
     text-align: left;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.social-links li {
+    margin: 10px;
+    width: 54px;
 }
 
 .social-links li.reddit a:hover {
