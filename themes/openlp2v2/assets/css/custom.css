@@ -280,11 +280,11 @@ article blockquote p:first-child {
     text-align: left;
 }
 
-li.reddit a:hover {
+.social-links li.reddit a:hover {
     color: #ff4500;
 }
 
-li.telegram a:hover {
+.social-links li.telegram a:hover {
     color: #0088cc;
 }
 
