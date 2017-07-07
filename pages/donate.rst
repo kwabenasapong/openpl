@@ -33,8 +33,8 @@ Once-off donations are gratefully accepted.
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
         <h3>PayPal <small>(Preferred)</small></h3>
         <p>You can donate via PayPal buy clicking the button.</p>
+        <p class="small text-info">You will be guided to create a PayPal account if you don't have one already.</p>
         <p><a class="btn btn-primary" href="https://paypal.me/raoulsnyman"><i class="fa fa-fw fa-paypal"></i> Donate via PayPal</a></p>
-        <p class="small">You will be guided to create a PayPal account if you don't have one already.</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
         <h3>Bitcoin</h3>
@@ -78,10 +78,10 @@ costs.
 
     <div class="clearfix">
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
-        <h3>Gratipay</h3>
-        <p>PalPal-based automated donation service.</p>
+        <h3>Gratipay <small>(Preferred)</small></h3>
+        <p>PayPal-based automated donation service.</p>
+        <p><img src="https://img.shields.io/gratipay/team/openlp.svg"></p>
         <p><a class="btn btn-primary" href="https://gratipay.com/openlp"><i class="fa fa-fw fa-gratipay"></i> Support via Gratipay</a></p>
-        <p class="small">Gratipay works weekly, so you'll need to divide your monthly donation into 4.</p>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
         <h3>Bitcoin</h3>
@@ -96,8 +96,6 @@ costs.
         <p>We are currently investigating an option for automated debit or credit card donations.<p>
       </div>
     </div>
-
-*Currently, after payment fees, we are receiving around US$ 1.00 per week.*
 
 .. raw:: html
 
