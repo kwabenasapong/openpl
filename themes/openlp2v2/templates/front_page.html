@@ -67,7 +67,7 @@
                         <div class="space"></div>
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="/assets/images/section-image-1.png" alt="">
+                                <img src="/assets/images/section-image-1.png" alt="OpenLP on a laptop" style="margin-top: 3em;">
                                 <div class="space"></div>
                             </div>
                             <div class="col-md-6">
@@ -339,13 +339,8 @@
                                         <li><a href="https://get.openlp.org/2.4.6/OpenLPPortable_2.4.6.paf.exe"><i class="fa fa-fw fa-download"></i> OpenLPPortable_2.4.6.paf.exe</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li class="dropdown-header">Torrents</li>
-                                        <!-- li class="dropdown-header">Installer Torrents</li -->
                                         <li><a href="https://get.openlp.org/2.4.6/OpenLP-2.4.6-setup.exe.torrent"><i class="fa fa-fw fa-cloud-download"></i> OpenLP-2.4.6-setup.exe.torrent</a></li>
-                                        <!-- li><a href="magnet:?xt=urn:btih:8f5a75821d43daf6acb8ffdd265ec006e3c82760&amp;tr=udp://tracker.unit193.net:6969&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;dn=OpenLP-2.4.5-setup.exe"><i class="fa fa-fw fa-magnet fa-flip-vertical"></i> Magnet</a></li -->
-                                        <!-- li role="separator" class="divider"></li -->
-                                        <!-- li class="dropdown-header">Portable Torrents</li -->
                                         <li><a href="https://get.openlp.org/2.4.6/OpenLPPortable_2.4.6.paf.exe.torrent"><i class="fa fa-fw fa-cloud-download"></i> OpenLPPortable_2.4.6.paf.exe.torrent</a></li>
-                                        <!-- li><a href="magnet:?xt=urn:btih:e1afc8a584df12427c9784c4112da2d1cbca7b7d&amp;tr=udp://tracker.unit193.net:6969&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;dn=OpenLPPortable_2.4.5.paf.exe"><i class="fa fa-fw fa-magnet fa-flip-vertical"></i> Magnet</a></li -->
                                     </ul>
                                 </div>
                             </p>
@@ -373,7 +368,6 @@
                                         <li><a href="https://get.openlp.org/2.4.6/OpenLP-2.4.6.dmg"><i class="fa fa-fw fa-download"></i> OpenLP-2.4.6.dmg</a></li>
                                         <li role="separator" class="divider"></li>
                                         <li><a href="https://get.openlp.org/2.4.6/OpenLP-2.4.6.dmg.torrent"><i class="fa fa-fw fa-cloud-download"></i> Torrent</a></li>
-                                        <!-- li><a href="magnet:?xt=urn:btih:785a818f90498aaeb0fedec9fe4222003c796c33&amp;tr=udp://tracker.unit193.net:6969&amp;tr=udp://tracker.coppersurfer.tk:6969&amp;dn=OpenLP-2.4.5.dmg"><i class="fa fa-fw fa-magnet fa-flip-vertical"></i> Magnet</a></li -->
                                     </ul>
                                 </div>
                             </p>
@@ -382,12 +376,100 @@
                             <h4>Linux/FreeBSD Downloads</h4>
                             <p>Select a distribution</p>
                             <p>
-                                <a href="https://launchpad.net/~openlp-core/+archive/release" class="btn btn-ubuntu"><i class="fa fa-fw fa-external-link"></i> Ubuntu</a>
-                                <a href="https://admin.fedoraproject.org/pkgdb/package/OpenLP/" class="btn btn-fedora"><i class="fa fa-fw fa-external-link"></i> Fedora</a>
-                                <a href="https://packages.debian.org/openlp" class="btn btn-debian"><i class="fa fa-fw fa-external-link"></i> Debian</a>
-                                <a href="https://aur.archlinux.org/packages/openlp/" class="btn btn-arch"><i class="fa fa-fw fa-external-link"></i> Arch</a>
+                                <button type="button" class="btn btn-ubuntu" data-toggle="modal" data-target="#ubuntu-install"><img src="/images/ubuntu-logo.png" class="icon"> Ubuntu</button>
+                                <button type="button" class="btn btn-fedora" data-toggle="modal" data-target="#fedora-install"><img src="/files/fedora-logo.png" class="icon hidden"> Fedora</button>
+                                <button type="button" class="btn btn-debian" data-toggle="modal" data-target="#debian-install"><img src="/images/debian-logo.png" class="icon"> Debian</button>
+                                <button type="button" class="btn btn-arch" data-toggle="modal" data-target="#arch-install"><img src="/images/archlinux-logo.png" class="icon"> Arch</button>
                                 <!-- a href="http://www.freshports.org/multimedia/py-openlp" class="btn btn-freebsd"><i class="fa fa-fw fa-external-link"></i> FreeBSD</a -->
                             </p>
+                            <div class="modal fade" id="ubuntu-install" tabindex="-1" role="dialog" aria-labelledby="ubuntu-install-title" style="text-align: left;" data-backdrop="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="ubuntu-install-title">Ubuntu Installation Instructions</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="alert alert-info small" role="alert">
+                                      <p><i class="fa fa-fw fa-info-circle"></i> OpenLP only supports Canonical-supported versions of Ubuntu from 16.04 and up.</p>
+                                    </div> 
+                                    <p>To install OpenLP, either search for OpenLP in Software Center, or run the following command:</p>
+                                    <pre>$ sudo apt install openlp</pre>
+                                    <p>Ubuntu does not always have the latest version of OpenLP in its repositories, so it may be handy to use our <abbr title="Personal Package Archive">PPA</abbr>:</p>
+                                    <pre>$ sudo add-apt-repository ppa:openlp-core/release<br>$ sudo apt update<br>$ sudo apt install openlp</pre>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="fedora-install" tabindex="-1" role="dialog" aria-labelledby="fedora-install-title" style="text-align: left;" data-backdrop="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="fedora-install-title">Fedora Installation Instructions</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="alert alert-info small" role="alert">
+                                      <p><strong>Note:</strong> OpenLP only realistically supports the most recent Fedora release.</p>
+                                    </div> 
+                                    <p>To install OpenLP, either search for OpenLP in your GUI package manager, or run the following command:</p>
+                                    <pre>$ sudo dnf install openlp</pre>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="debian-install" tabindex="-1" role="dialog" aria-labelledby="debian-install-title" style="text-align: left;" data-backdrop="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="debian-install-title">Debian Installation Instructions</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="alert alert-info small" role="alert">
+                                      <p><strong>Note:</strong> OpenLP only realistically supports Debian unstable.</p>
+                                    </div> 
+                                    <p>To install OpenLP, either search for OpenLP in your GUI package manager, or run the following command:</p>
+                                    <pre>$ sudo apt install openlp</pre>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal fade" id="arch-install" tabindex="-1" role="dialog" aria-labelledby="arch-install-title" style="text-align: left;" data-backdrop="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="arch-install-title">Arch Linux Installation Instructions</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p>OpenLP is available in the <a href="https://wiki.archlinux.org/index.php/Arch_User_Repository" title="Arch User Repository">Arch User Repository</a>.
+									   You will need to install an <a href="https://wiki.archlinux.org/index.php/AUR_helpers" title="AUR Helpers">AUR helper</a> if you haven't already.</p>
+                                    <p>Go to <a href="https://aur.archlinux.org/packages/openlp/" title="OpenLP in the AUR">OpenLP in the AUR</a></p>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                         </div>
                         <div class="source hidden">
                             <h4>OpenLP Source Code</h4>
@@ -509,21 +591,22 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                             <div class="footer-content">
-                                <p class="large">OpenLP is not developed by a company, but by a group of volunteers who dedicate part of their spare time to developing this application. These same developers try to also find time to answer support requests. You can help the developers by reading the <a href="http://manual.openlp.org/" title="OpenLP Manual">manual</a> (which has both <a href="http://manual.openlp.org/faq.html">Frequently Asked Questions</a> and a <a href="http://manual.openlp.org/troubleshooting.html">Troubleshooting Guide</a>) and browsing the <a href="http://forums.openlp.org/" title="OpenLP Forums">forums</a> where a number of folks in our community can help to answer your questions.</p>
+                                <p class="large">OpenLP is not developed by a company, but by a group of volunteers who dedicate part of their spare time to developing this application. These same developers try to also find time to answer support requests. You can help the developers by reading the <a href="https://manual.openlp.org/" title="OpenLP Manual">manual</a> (which has both <a href="https://manual.openlp.org/faq.html">Frequently Asked Questions</a> and a <a href="https://manual.openlp.org/troubleshooting.html">Troubleshooting Guide</a>) and browsing the <a href="https://forums.openlp.org/" title="OpenLP Forums">forums</a> where a number of folks in our community can help to answer your questions.</p>
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <ul class="list-icons">
-                                <li><i class="fa fa-fw fa-book pr-10"></i> Manual: <a href="http://manual.openlp.org/">manual.openlp.org</a></li>
-                                <li><i class="fa fa-fw fa-envelope-o pr-10"></i> E-mail: support(at)openlp.org</li>
+                                <li><i class="fa fa-fw fa-book pr-10"></i> Manual: <a href="https://manual.openlp.org/">manual.openlp.org</a></li>
                                 <li><i class="fa fa-fw fa-money pr-10"></i> Donate: <a href="/donate">find out more</a></li>
-                                <li><i class="fa fa-fw fa-comments pr-10"></i> IRC Channel: <a href="http://webchat.freenode.net/?randomnick=1&amp;channels=openlp&amp;prompt=1&amp;uio=d4">#openlp on Freenode.net</a></li>
+                                <li><i class="fa fa-fw fa-envelope-o pr-10"></i> E-mail: support(at)openlp.org</li>
+                                <li><i class="fa fa-fw fa-comments-o pr-10"></i> IRC Channel: <a href="https://webchat.freenode.net/?randomnick=1&amp;channels=openlp&amp;prompt=1&amp;uio=d4">#openlp on Freenode.net</a></li>
                             </ul>
                         </div>
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                             <ul class="list-icons">
                                 <li><i class="fa fa-fw fa-comments pr-10"></i> Forums: <a href="https://forums.openlp.org">forums.openlp.org</a></li>
-                                <li><i class="fa fa-fw fa-pencil-square-o pr-10"></i> Wiki: <a href="http://wiki.openlp.org/">wiki.openlp.org</a></li>
+                                <li><i class="fa fa-fw fa-pencil-square-o pr-10"></i> Wiki: <a href="https://wiki.openlp.org/">wiki.openlp.org</a></li>
+                                <li><i class="fa fa-fw fa-handshake-o pr-10"></i> Contribute: <a href="/contribute">find out more</a></li>
                                 <li><i class="fa fa-fw fa-wrench pr-10"></i> Developer Central: <a href="https://openlp.io/">openlp.io</a></li>
                             </ul>
                         </div>
