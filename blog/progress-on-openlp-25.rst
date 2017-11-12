@@ -1,6 +1,6 @@
 .. title: Progress on OpenLP 2.5
-.. slug: 2017/10/29/progress-on-openlp-25
-.. date: 2017-10-29 12:00:00 UTC
+.. slug: 2017/11/12/progress-on-openlp-25
+.. date: 2017-11-12 12:00:00 UTC
 .. tags: 
 .. category: 
 .. link: 
@@ -8,24 +8,30 @@
 .. type: text
 .. previewimage: /cover-images/progress-on-openlp-25.jpg
 
+.. raw:: html
+
+    <div class="alert alert-info">This blog post is written by Phill Ridout, one of our developers.</div>
+
 Like many other open source projects, OpenLP uses even version numbers to denote a stable release, and odd version
 numbers to denote an unstable (or development) release.
 
-Currently we're in the process of working on OpenLP 2.5 which will become OpenLP 2.6 when we release it. We’re still
-not in a position to make this release, but I thought I'd write this blog post to assure you that lots of work is being
-done behind the scenes.
+Currently we're in the process of working on OpenLP 2.5, which is the current unreleased and unstable version. We're
+still not in a position to make a new release, but I thought I'd write this blog post to assure you that lots of work
+is being done behind the scenes.
 
 So what have we been working on?
 
 New features:
 
 - Support for chords in songs
-- Supporting more projectors by upgrading to PJLink 2
 - Support for bibles from the SWORD Project
 - Support for ProPresenter 5 song import
-- Video backgrounds to songs (depending on your platform)
+- Support for EasyWorship 6 song import
+- Upgrade the network projector controller to support the PJLink 2 protocol (in addition to PJLink 1)
+- Video backgrounds to songs, Bible verses and custom slides (depending on your platform)
 - Video timing display so you can see the time left for a media item
 - The splitting of the Web Inferface from the core code allowing faster updates and user defined variations
+- A new dark theme for Windows and macOS (see Advanced Settings)
 
 Behind the scenes:
 
@@ -39,6 +45,9 @@ Behind the scenes:
 
 So while we might seem to be quiet, the real reason is because we're trying to get everything ready for another
 feature-packed release.
+
+Last, but not least, we've decided to make the next release version 3.0 due to the large number of new features and
+changes.
 
 [ Image Credit: `Waiting by Solmaz Zohdi`_ ]
 
