@@ -8,11 +8,10 @@ Like most other voluntary open source projects, OpenLP has no income and is enti
 the developers. We have a number of fixed costs, like server hosting, domain names, and the like. If you'd like to
 help us out, please consider donating to our cause.
 
-There are three types of donations:
+There are two ways to help out financially:
 
 1. Once-off donations
-2. Regular donations
-3. Buy swag
+2. Buy swag
 
 Once-off Donations
 ^^^^^^^^^^^^^^^^^^
@@ -69,37 +68,6 @@ Once-off donations are gratefully accepted.
     </div>
     <hr>
 
-Regular Donations
-^^^^^^^^^^^^^^^^^
-While once-off donations are nice, regular donations are much more useful to us. They help to cover our month-to-month
-costs.
-
-.. raw:: html
-
-    <div class="clearfix">
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
-        <h3>Gratipay <small>(Preferred)</small></h3>
-        <p>PayPal-based automated donation service.</p>
-        <p><img src="https://img.shields.io/gratipay/team/openlp.svg"></p>
-        <p><a class="btn btn-primary" href="https://gratipay.com/openlp"><i class="fa fa-fw fa-gratipay"></i> Support via Gratipay</a></p>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
-        <h3>Bitcoin</h3>
-        <p>We don't currently have automated Bitcoin donations, but you're welcome to use Bitcoin.</p>
-        <div class="input-group">
-          <span class="input-group-addon"><i class="fa fa-fw fa-btc"></i></span>
-          <input class="form-control type="text" value="1Hcuk8eX485NmfjUoPNSpJWci22FwuXJjV" readonly>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
-        <h3>Credit Card</h3>
-        <p>We are currently investigating an option for automated debit or credit card donations.<p>
-      </div>
-    </div>
-
-.. raw:: html
-
-    <hr>
 
 Buy Swag
 ^^^^^^^^
@@ -115,12 +83,10 @@ Regular Costs
 ^^^^^^^^^^^^^
 Here's a breakdown of our regular costs:
 
-1. $20/month for a `VPS from Linode.com`_, which we'd like to upgrade to the next level, which will cost us $40/month.
+1. $40/month for a `VPS from Linode.com`_ which is used for downloads, developer tools and First Time Wizard data.
 2. $10/month for a `backup service`_, also from Linode.com.
 3. $17/year for our main domain, `openlp.org`_. See `Gandi.net's pricing page`_ for information on domain name costs.
 4. $35/year for our developer domain, `openlp.io`_.
-
-This comes to roughly $8 per week. To be able to upgrade to the next level, we will need roughly $12.50 per week.
 
 
 [ Image Credit: `Tip Jar at Open Bar by Dave Dugdale`_ ]
