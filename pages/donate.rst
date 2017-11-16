@@ -16,34 +16,100 @@ There are three types of donations:
 
 Once-off Donations
 ^^^^^^^^^^^^^^^^^^
-Once-off donations are gratefully accepted. You can donate by going to `paypal.me/raoulsnyman`_. You don't
-need a PayPal account.
+
+Once-off donations are gratefully accepted.
+
+.. raw:: html
+
+    <div id="error-alert" class="alert alert-danger hidden" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <p><strong>Error:</strong> <span id="error-message"></span></p>
+    </div>
+    <div id="success-alert" class="alert alert-success hidden" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <p id="success-message"></p>
+    </div>
+    <div class="clearfix">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
+        <h3>PayPal <small>(Preferred)</small></h3>
+        <p>You can donate via PayPal buy clicking the button.</p>
+        <p class="small text-info">You will be guided to create a PayPal account if you don't have one already.</p>
+        <p><a class="btn btn-primary" href="https://paypal.me/raoulsnyman"><i class="fa fa-fw fa-paypal"></i> Donate via PayPal</a></p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
+        <h3>Bitcoin</h3>
+        <p>Donate to us via Bitcoin using the address below.</p>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-fw fa-btc"></i></span>
+          <input class="form-control type="text" value="1Hcuk8eX485NmfjUoPNSpJWci22FwuXJjV" readonly>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
+        <h3>Credit Card</h3>
+        <p>We also accept donations via debit or credit card.</p>
+        <form id="donate" class="form" role="form" action="donate-cc.php" method="POST">
+          <input type="hidden" name="token" id="token">
+          <input type="hidden" name="return-url" id="return-url">
+          <div class="form-group">
+            <label class="sr-only" for="donate-amount">Amount</label>
+            <div class="input-group">
+              <span class="input-group-addon">$</span>
+              <input type="number" value="10" class="form-control" name="amount" id="amount">
+              <span class="input-group-addon">.00</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="donate-button" class="btn btn-primary"><i class="fa fa-fw fa-credit-card"></i> Donate to OpenLP</button>
+            <div class="pull-right">
+              <a href="https://stripe.com" title="Credit card donations processed by Stripe"><img src="/images/powered_by_stripe.png" alt="Credit card donations processed by Stripe"></a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr>
 
 Regular Donations
 ^^^^^^^^^^^^^^^^^
 While once-off donations are nice, regular donations are much more useful to us. They help to cover our month-to-month
-costs. We use `Gratipay`_ for automated regular donations. Gratipay works on a weekly schedule, so calculate what you
-want to donate on a monthly basis and basically divide it by 4. Gratipay works through PayPal, so all you need is a
-PayPal account.
-
-Set up your donation by clicking on the button below.
+costs.
 
 .. raw:: html
 
-    <p>
-        <a href="https://gratipay.com/openlp">
-            <img alt="Support via Gratipay" src="https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png"/>
-        </a>
-    </p>
+    <div class="clearfix">
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
+        <h3>Gratipay <small>(Preferred)</small></h3>
+        <p>PayPal-based automated donation service.</p>
+        <p><img src="https://img.shields.io/gratipay/team/openlp.svg"></p>
+        <p><a class="btn btn-primary" href="https://gratipay.com/openlp"><i class="fa fa-fw fa-gratipay"></i> Support via Gratipay</a></p>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
+        <h3>Bitcoin</h3>
+        <p>We don't currently have automated Bitcoin donations, but you're welcome to use Bitcoin.</p>
+        <div class="input-group">
+          <span class="input-group-addon"><i class="fa fa-fw fa-btc"></i></span>
+          <input class="form-control type="text" value="1Hcuk8eX485NmfjUoPNSpJWci22FwuXJjV" readonly>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
+        <h3>Credit Card</h3>
+        <p>We are currently investigating an option for automated debit or credit card donations.<p>
+      </div>
+    </div>
 
-*Currently, after payment fees, we are receiving around US$ 9.00 per week.*
+.. raw:: html
+
+    <hr>
 
 Buy Swag
 ^^^^^^^^
 One other way you can help us financially is by buying stuff from our online store. There are T-shirts, cups, hats,
 USB drives, and other things for sale, and all proceeds go to OpenLP.
 
-The store has been set up on Zazzle: `OpenLP Merchandise Store`_
+.. raw:: html
+
+    <p><a href="https://www.zazzle.com/openlp" class="btn btn-primary"><i class="fa fa-fw fa-shopping-basket"></i> Buy Some Swag</a></p>
+    <hr>
 
 Regular Costs
 ^^^^^^^^^^^^^
@@ -59,9 +125,6 @@ This comes to roughly $8 per week. To be able to upgrade to the next level, we w
 
 [ Image Credit: `Tip Jar at Open Bar by Dave Dugdale`_ ]
 
-.. _paypal.me/raoulsnyman: https://www.paypal.me/raoulsnyman 
-.. _Gratipay: https://gratipay.com/
-.. _OpenLP Merchandise Store: https://www.zazzle.com/openlp
 .. _VPS from Linode.com: https://www.linode.com/pricing
 .. _backup service: https://www.linode.com/backups
 .. _Gandi.net's pricing page: https://www.gandi.net/domain/price/info

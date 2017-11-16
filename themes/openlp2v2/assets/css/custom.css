@@ -7,6 +7,12 @@ Created:November 2014
 License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
 File Description: Place here your custom CSS styles
 */
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.90);
+    }
+}
+
 .bg-image-1 {
     background: url("../images/worship-1.jpg") 50% 0px no-repeat;
 }
@@ -59,6 +65,11 @@ div.post-heading h1 {
     padding: 225px 0 150px 0;
     text-align: center;
     text-shadow: 1px 1px 2px #000;
+}
+
+div#feature-details div.row {
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 div.product-chooser div.product-chooser-item {
@@ -118,9 +129,10 @@ div.product-chooser div.product-chooser-item input{
 
 .btn-ubuntu {
     color: #fff;
-    background-color: #e36c43;
+    background-color: #e95420;
     border: 1px solid #e05a2b;
 }
+
 .btn-ubuntu:hover, .btn-ubuntu:focus, .btn-ubuntu.focus {
     color: #fff;
     background-color: #dd4814;
@@ -133,7 +145,7 @@ div.product-chooser div.product-chooser-item input{
     border: 1px solid #2a5cb1;
 }
 
-.btn-fedora:hover {
+.btn-fedora:hover, .btn-fedora:focus, .btn-fedora.focus {
     color: #fff;
     background-color: #294172;
     border-color: #294172;
@@ -145,7 +157,7 @@ div.product-chooser div.product-chooser-item input{
     border: 1px solid #dd1155;
 }
 
-.btn-debian:hover {
+.btn-debian:hover, .btn-debian:focus, .btn-debian.focus {
     color: #fff;
     background-color: #A80030;
     border-color: #A80030;
@@ -157,7 +169,7 @@ div.product-chooser div.product-chooser-item input{
     border: 1px solid #168cc7;
 }
 
-.btn-arch:hover {
+.btn-arch:hover, .btn-arch:focus, .btn-arch.focus {
     color: #fff;
     background-color: #147db2;
     border-color: #147db2;
@@ -169,7 +181,7 @@ div.product-chooser div.product-chooser-item input{
     border: 1px solid #d00;
 }
 
-.btn-freebsd:hover {
+.btn-freebsd:hover, .btn-freebsd:focus, .btn-freebsd.focus {
     color: #fff;
     background-color: #a00;
     border-color: #a00;
@@ -178,6 +190,13 @@ div.product-chooser div.product-chooser-item input{
 a > img {
     display: inline;
     vertical-align: text-bottom;
+}
+
+.btn > img.icon {
+    display: inline;
+    height: 16px;
+    margin-top: -2px;
+    width: 16px;
 }
 
 div.postindex article {
@@ -202,6 +221,8 @@ time {
     float: right;
     font-size: 1em;
     height: 7.2em;
+    margin-bottom: 1em;
+    margin-left: 1em;
     overflow: hidden;
     position: relative;
     width: 7em;

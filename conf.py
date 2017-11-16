@@ -430,7 +430,7 @@ INDEX_TEASERS = True
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
 INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}...</a></p>'
 # 'Read more...' for the RSS_FEED, if RSS_TEASERS is True (translatable)
-RSS_READ_MORE_LINK = '<p><a href="{link}">{read_more}...</a> ({min_remaining_read})</p>'
+FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}...</a> ({min_remaining_read})</p>'
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
@@ -620,7 +620,7 @@ COPY_SOURCES = False
 # RSS_LINK = None
 
 # Show only teasers in the RSS feed? Default to True
-RSS_TEASERS = False
+FEED_TEASERS = False
 
 # Strip HTML in the RSS feed? Default to False
 # RSS_PLAIN = False
@@ -681,29 +681,7 @@ RSS_TEASERS = False
 #"""
 EXTRA_HEAD_DATA = """
     <link href="/assets/css/ekko-lightbox.css" rel="stylesheet">
-    <script src="//www.google.com/recaptcha/api.js"></script>
-    <script type="text/javascript">
-    var Countly = Countly || {};
-    Countly.q = Countly.q || [];
-    Countly.app_key = "53ec944e2cab9356d3577dd1e260dc113fbf210f";
-    Countly.url = "https://stats.openlp.io"; 
-    Countly.q.push(["track_sessions"]);
-    Countly.q.push(["track_pageview"]);
-    Countly.q.push(["track_links", document.getElementById("download-section")]);
-      
-    //load countly script asynchronously
-    (function() {
-        var cly = document.createElement("script");
-        cly.type = "text/javascript"; 
-        cly.async = true;
-        cly.src = "https://cdn.jsdelivr.net/countly-sdk-web/latest/countly.min.js";
-        cly.onload = function() { Countly.init() };
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(cly, s);
-    })();
-    </script>
-    <script type="text/javascript">window.liveSettings={api_key:"2c307f8400684f0595b35e8101f9fc8a"};</script>
-    <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+    <link href="/assets/css/toastr.min.css" rel="stylesheet">
 """
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
@@ -718,7 +696,14 @@ EXTRA_HEAD_DATA = """
         #<script type="text/javascript" src="js/custom.js"></script>
 #"""
 BODY_END = """
+    <script type="text/javascript">window.liveSettings={api_key:"2c307f8400684f0595b35e8101f9fc8a"};</script>
+    <script type="text/javascript" src="https://checkout.stripe.com/checkout.js"></script>
+    <script type="text/javascript" src="//www.google.com/recaptcha/api.js"></script>
+    <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
+    <script tyle="text/javascript" src="//cdn.jsdelivr.net/countly-sdk-web/latest/countly.min.js"></script>
     <script type="text/javascript" src="/assets/js/ekko-lightbox.js"></script>
+    <script type="text/javascript" src="/assets/js/toastr.min.js"></script>
+    <script type="text/javascript" src="/scripts/openlp.js"></script>
 """
 
 # The possibility to extract metadata from the filename by using a
