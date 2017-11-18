@@ -430,7 +430,7 @@ INDEX_TEASERS = True
 # 'Read more...' for the index page, if INDEX_TEASERS is True (translatable)
 INDEX_READ_MORE_LINK = '<p class="more"><a href="{link}">{read_more}...</a></p>'
 # 'Read more...' for the RSS_FEED, if RSS_TEASERS is True (translatable)
-RSS_READ_MORE_LINK = '<p><a href="{link}">{read_more}...</a> ({min_remaining_read})</p>'
+FEED_READ_MORE_LINK = '<p><a href="{link}">{read_more}...</a> ({min_remaining_read})</p>'
 
 # A HTML fragment describing the license, for the sidebar.
 # (translatable)
@@ -620,7 +620,7 @@ COPY_SOURCES = False
 # RSS_LINK = None
 
 # Show only teasers in the RSS feed? Default to True
-RSS_TEASERS = False
+FEED_TEASERS = False
 
 # Strip HTML in the RSS feed? Default to False
 # RSS_PLAIN = False
@@ -681,6 +681,7 @@ RSS_TEASERS = False
 #"""
 EXTRA_HEAD_DATA = """
     <link href="/assets/css/ekko-lightbox.css" rel="stylesheet">
+    <link href="/assets/css/toastr.min.css" rel="stylesheet">
 """
 
 # Google Analytics or whatever else you use. Added to the bottom of <body>
@@ -701,6 +702,7 @@ BODY_END = """
     <script type="text/javascript" src="//cdn.transifex.com/live.js"></script>
     <script tyle="text/javascript" src="//cdn.jsdelivr.net/countly-sdk-web/latest/countly.min.js"></script>
     <script type="text/javascript" src="/assets/js/ekko-lightbox.js"></script>
+    <script type="text/javascript" src="/assets/js/toastr.min.js"></script>
     <script type="text/javascript" src="/scripts/openlp.js"></script>
 """
 

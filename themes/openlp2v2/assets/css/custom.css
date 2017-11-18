@@ -29,6 +29,12 @@ iframe {
     border: 0;
 }
 
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0.90);
+    }
+}
+
 div.blog-heading {
     background: transparent url(/assets/images/blog-heading-2.jpg) no-repeat center center scroll;
     -webkit-background-size:cover;

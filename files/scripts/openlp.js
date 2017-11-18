@@ -57,8 +57,37 @@ function setUpStripe() {
   $("#return-url").val(location.protocol + "//" + location.host + location.pathname);
 }
 
+function showToastr() {
+  var cookies = document.cookie;
+  if (cookies.search("hasVisitedOpenLPBefore=true") != -1) {
+    return;
+  }
+  else if (location.hostname != "localhost") {
+    document.cookie = "hasVisitedOpenLPBefore=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+  }
+  toastr.options = {
+    closeButton: false,
+    debug: false,
+    newestOnTop: false,
+    progressBar: false,
+    positionClass: "toast-bottom-right",
+    preventDuplicates: false,
+    onclick: null,
+    showDuration: "300",
+    hideDuration: "300",
+    timeOut: "2000",
+    extendedTimeOut: "1000",
+    showEasing: "swing",
+    hideEasing: "linear",
+    showMethod: "fadeIn",
+    hideMethod: "fadeOut"
+  };
+  toastr.info(Transifex.live.translateText("This site may use cookies for anonymous traffic analysis."));
+}
+
 $(document).ready(function () {
   setUpCountly();
+  showToastr();
   if (location.pathname.substr(0, 7) == "/donate") {
     // Online set these up on the donate page
     displayErrors();
