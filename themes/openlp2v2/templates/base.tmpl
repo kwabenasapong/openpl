@@ -8,7 +8,7 @@ ${base.html_headstart()}
 </%block>
 ${template_hooks['extra_head']()}
 </head>
-    <body class="no-trans">
+    <body class="no-trans txlive">
 % if permalink is not UNDEFINED and permalink == u'/index.html':
         <%include file="front_page.html"/>
 % else:
@@ -42,17 +42,18 @@ ${template_hooks['extra_head']()}
                                         </div>
                                         <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
                                             <ul class="nav navbar-nav navbar-right">
-                                                <li><a href="/#about">About</a></li>
-                                                <li><a href="/#features">Features</a></li>
-                                                <li><a href="/#downloads">Downloads</a></li>
-                                                <li><a href="/#testimonials">Testimonials</a></li>
-                                                <li><a href="/#support">Support</a></li>
-                                                <li><a href="https://forums.openlp.org/">Forums</a></li>
 % if permalink.startswith(u'/blog'):
                                                 <li class="active"><a href="/blog/">Blog</a></li>
 % else:
                                                 <li><a href="/blog/">Blog</a></li>
 % endif
+                                                <li><a href="/#about">About</a></li>
+                                                <li><a href="/#features">Features</a></li>
+                                                <li><a href="/#downloads">Downloads</a></li>
+                                                <li><a href="/#testimonials">Testimonials</a></li>
+                                                <li><a href="/#help">Help</a></li>
+                                                <li><a href="https://manual.openlp.org/">Manual</a></li>
+                                                <li><a href="https://forums.openlp.org/">Forums</a></li>
                                             </ul>
                                         </div>
                                     </div>

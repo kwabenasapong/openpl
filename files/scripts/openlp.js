@@ -62,7 +62,7 @@ function showToastr() {
   if (cookies.search("hasVisitedOpenLPBefore=true") != -1) {
     return;
   }
-  else {
+  else if (location.hostname != "localhost") {
     document.cookie = "hasVisitedOpenLPBefore=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
   }
   toastr.options = {
@@ -82,7 +82,7 @@ function showToastr() {
     showMethod: "fadeIn",
     hideMethod: "fadeOut"
   };
-  toastr.info("This site uses cookies.");
+  toastr.info(Transifex.live.translateText("This site may use cookies for anonymous traffic analysis."));
 }
 
 $(document).ready(function () {
