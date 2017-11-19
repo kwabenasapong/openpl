@@ -21,17 +21,17 @@ Once-off donations are gratefully accepted.
 .. raw:: html
 
     <div id="error-alert" class="alert alert-danger hidden" role="alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close" tx-attrs="aria-label"><span class="notranslate" aria-hidden="true">&times;</span></button>
       <p><strong>Error:</strong> <span id="error-message"></span></p>
     </div>
     <div id="success-alert" class="alert alert-success hidden" role="alert">
-      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close" tx-attrs="aria-label"><span class="notranslate" aria-hidden="true">&times;</span></button>
       <p id="success-message"></p>
     </div>
     <div class="clearfix">
       <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">  
         <h3>PayPal <small>(Preferred)</small></h3>
-        <p>You can donate via PayPal buy clicking the button.</p>
+        <p>You can donate via PayPal by clicking the button.</p>
         <p class="small text-info">You will be guided to create a PayPal account if you don't have one already.</p>
         <p><a class="btn btn-primary" href="https://paypal.me/raoulsnyman"><i class="fa fa-fw fa-paypal"></i> Donate via PayPal</a></p>
       </div>
@@ -52,9 +52,9 @@ Once-off donations are gratefully accepted.
           <div class="form-group">
             <label class="sr-only" for="donate-amount">Amount</label>
             <div class="input-group">
-              <span class="input-group-addon">$</span>
+              <span class="input-group-addon notranslate">$</span>
               <input type="number" value="10" class="form-control" name="amount" id="amount">
-              <span class="input-group-addon">.00</span>
+              <span class="input-group-addon notranslate">.00</span>
             </div>
           </div>
           <div class="form-group">
@@ -76,7 +76,7 @@ USB drives, and other things for sale, and all proceeds go to OpenLP.
 
 .. raw:: html
 
-    <p><a href="https://www.zazzle.com/openlp" class="btn btn-primary"><i class="fa fa-fw fa-shopping-basket"></i> Buy Some Swag</a></p>
+    <p><a href="https://www.zazzle.com/openlp" class="btn btn-primary"><i class="fa fa-fw fa-shopping-basket notranslate"></i> Buy Some Swag</a></p>
     <hr>
 
 Regular Costs
