@@ -46,12 +46,13 @@ end result is a lot better, it also means longer development time.
 License change
 --------------
 
-A few months ago we were made aware that OpenLP violates a few of the licenses that some of OpenLPs
-dependencies are under. For instance, PyQt5 is under the GPLv3 license, which is incompatiable with
-OpenLPs GPLv2. To resolve this we are planning to relicense OpenLP under the GPLv3 license. To do
-this we have contacted all of the known contributors to OpenLP to get their permission to relicense.
-So far it has been a success, even though it is a slow process. Not everybody has replied yet, so
-if you have contributed in the past but have not been contacted about this, please contact us.
+A few months ago we were made aware that OpenLP's current license is not compatible with the
+licenses of some of the libraries that OpenLP uses. For instance, PyQt5 is under the GPLv3 license,
+which is incompatiable with OpenLPs GPLv2. To resolve this we are planning to relicense OpenLP
+under the GPLv3 license. To do this we have contacted all of the known contributors to OpenLP to
+get their permission to relicense. So far it has been a success, even though it is a slow process.
+Not everybody has replied yet, so if you have contributed in the past but have not been contacted
+about this, please contact us.
 
 Other news
 ----------
