@@ -6,7 +6,7 @@
 .. link: 
 .. description: 
 .. type: text
-.. previewimage: cover-images/getting-closer-to-openlp-30.jpg
+.. previewimage: /cover-images/getting-closer-to-openlp-30.jpg
 
 It has been almost 2 years since the release of 2.4.6 and understandably we are getting a lot of
 questions as to when the next release will be ready. The answer is always the same: "When it is
