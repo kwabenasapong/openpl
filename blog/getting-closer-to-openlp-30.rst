@@ -33,7 +33,7 @@ But why is it taking so long?
 -----------------------------
 
 The thing is that it requires time to do development, and as volunteers, time is a scarce resource
-when you have full-time jobs and familiies. In fact, within the last year, 3 of the 4 core
+when you have full-time jobs and families. In fact, within the last year, 3 of the 4 core
 developers have been blessed with babies, which means even less time for OpenLP development.
 
 Another reason for the long wait is that we might have been a bit too ambitious with this release.
