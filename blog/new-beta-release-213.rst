@@ -1,6 +1,6 @@
 .. title: New Beta Release: 2.1.3
 .. slug: 2015/02/22/new-beta-release-213
-.. date: 2015-02-22 17:02:00 SAST
+.. date: 2015-02-22 17:02:00 UTC+02:00
 .. tags:
 .. link:
 .. description:

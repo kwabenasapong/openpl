@@ -1,6 +1,6 @@
 .. title: OpenLP 2.1.1 Beta Released
 .. slug: 2014/11/02/openlp-211-beta-released
-.. date: 2014-10-27 18:10:14 SAST
+.. date: 2014-10-27 18:10:14 UTC+02:00
 .. tags:
 .. link:
 .. description:
