@@ -1,6 +1,6 @@
 .. title: OpenLP Featured in Theotek Hangout
 .. slug: 2014/10/27/openlp-featured-theotek-hangout
-.. date: 2014-10-27 18:10:14 SAST
+.. date: 2014-10-27 18:10:14 UTC+02:00
 .. tags: podcast review theotek
 .. link:
 .. description:

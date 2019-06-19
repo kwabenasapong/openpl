@@ -1,6 +1,6 @@
 .. title: [Video] A Visual History of OpenLP 2.x
 .. slug: 2015/01/09/video-visual-history-openlp-2x
-.. date: 2015-01-09 22:01:24 SAST
+.. date: 2015-01-09 22:01:24 UTC+02:00
 .. tags:
 .. link:
 .. description:
