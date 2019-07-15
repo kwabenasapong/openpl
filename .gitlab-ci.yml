@@ -4,28 +4,6 @@ before_script:
 - apk --no-cache add make openssh-client py3-setuptools python3-dev py3-pillow py3-lxml
 - python3 -m pip install nikola
 
-pages:
-  stage: deploy
-  script:
-  - nikola theme -i bootstrap3
-  - nikola build
-  artifacts:
-    paths:
-    - output
-  only:
-  - master
-
-test:
-  stage: test
-  script:
-  - nikola theme -i bootstrap3
-  - nikola build
-  artifacts:
-    paths:
-    - output
-  except:
-  - master
-
 deploy:
   stage: deploy
   script:
