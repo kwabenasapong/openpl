@@ -136,7 +136,8 @@ TIMEZONE = "UTC"
 # Date format used to display post dates.
 # (str used by datetime.datetime.strftime)
 # DATE_FORMAT = '%Y-%m-%d %H:%M'
-DATE_FORMAT = '%a %-d %b, %Y'
+# DATE_FORMAT = '%a %-d %b, %Y'
+DATE_FORMAT = 'EEE d MMM, y'
 
 # While nikola can select a sensible locale for each language,
 # sometimes explicit control can come handy.
@@ -445,7 +446,8 @@ LICENSE = ""
 
 # A small copyright notice for the page footer (in HTML).
 # (translatable)
-CONTENT_FOOTER = 'Contents &copy; {date} <a href="mailto:{email}">{author}</a> - Powered by <a href="http://getnikola.com" rel="nofollow">Nikola</a> {license}'
+CONTENT_FOOTER = 'Contents &copy; {date} <a href="mailto:{email}">{author}</a> - Powered by <a ' \
+                 'href="http://getnikola.com" rel="nofollow">Nikola</a> {license}'
 
 # Things that will be passed to CONTENT_FOOTER.format().  This is done
 # for translatability, as dicts are not formattable.  Nikola will
@@ -530,7 +532,7 @@ COMMENT_SYSTEM_ID = "openlp"
 # This can be disabled on a per-page/post basis by adding
 #    .. pretty_url: False
 # to the metadata
-# PRETTY_URLS = False
+PRETTY_URLS = False
 
 # If True, publish future dated posts right away instead of scheduling them.
 # Defaults to False.
@@ -586,7 +588,8 @@ COMMENT_SYSTEM_ID = "openlp"
 # (translatable)
 # SOCIAL_BUTTONS_CODE = """
 # <!-- Social buttons -->
-# <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
+# <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style
+# addthis_32x32_style">
 # <a class="addthis_button_more">Share</a>
 # <ul><li><a class="addthis_button_facebook"></a>
 # <li><a class="addthis_button_google_plusone_share"></a>
@@ -658,7 +661,7 @@ FEED_TEASERS = False
 # <input type="text" name="q" maxlength="255" results="0" placeholder="Search"/>
 # </form>
 # <!-- End of custom search -->
-#""" % SITE_URL
+# """ % SITE_URL
 
 # Use content distribution networks for jquery, twitter-bootstrap css and js,
 # and html5shiv (for older versions of Internet Explorer)
@@ -671,14 +674,15 @@ FEED_TEASERS = False
 # Extra things you want in the pages HEAD tag. This will be added right
 # before </head>
 # (translatable)
-#EXTRA_HEAD_DATA = """
-        #<link href="//fonts.googleapis.com/css?family=Oxygen:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-        #<link href="//fonts.googleapis.com/css?family=Raleway:700,400,300" rel="stylesheet" type="text/css">
-        #<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
-        #<link href="css/animations.css" rel="stylesheet">
-        #<link href="css/style.css" rel="stylesheet">
-        #<link href="css/custom.css" rel="stylesheet">
-#"""
+# EXTRA_HEAD_DATA = """
+# <link href="//fonts.googleapis.com/css?family=Oxygen:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet"
+#       type="text/css">
+# <link href="//fonts.googleapis.com/css?family=Raleway:700,400,300" rel="stylesheet" type="text/css">
+# <link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+# <link href="css/animations.css" rel="stylesheet">
+# <link href="css/style.css" rel="stylesheet">
+# <link href="css/custom.css" rel="stylesheet">
+# """
 EXTRA_HEAD_DATA = """
     <link href="/assets/css/ekko-lightbox.css" rel="stylesheet">
     <link href="/assets/css/toastr.min.css" rel="stylesheet">
@@ -687,14 +691,14 @@ EXTRA_HEAD_DATA = """
 # Google Analytics or whatever else you use. Added to the bottom of <body>
 # in the default template (base.tmpl).
 # (translatable)
-#BODY_END = """
-        #<script type="text/javascript" src="plugins/modernizr.js"></script>
-        #<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
-        #<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
-        #<script type="text/javascript" src="plugins/jquery.appear.js"></script>
-        #<script type="text/javascript" src="js/template.js"></script>
-        #<script type="text/javascript" src="js/custom.js"></script>
-#"""
+# BODY_END = """
+# <script type="text/javascript" src="plugins/modernizr.js"></script>
+# <script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+# <script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+# <script type="text/javascript" src="plugins/jquery.appear.js"></script>
+# <script type="text/javascript" src="js/template.js"></script>
+# <script type="text/javascript" src="js/custom.js"></script>
+# """
 BODY_END = """
     <script type="text/javascript">window.liveSettings={api_key:"2c307f8400684f0595b35e8101f9fc8a"};</script>
     <script type="text/javascript" src="https://checkout.stripe.com/checkout.js"></script>
@@ -723,7 +727,7 @@ BODY_END = """
 
 # If you hate "Filenames with Capital Letters and Spaces.md", you should
 # set this to true.
-UNSLUGIFY_TITLES = True
+FILE_METADATA_UNSLUGIFY_TITLES = True
 
 # Additional metadata that is added to a post when creating a new_post
 # ADDITIONAL_METADATA = {}

@@ -93,9 +93,11 @@ lang="${lang}">
         <script type="text/javascript" src="/assets/js/custom.js"></script>
         <script type="text/javascript" src="/assets/js/jquery.colorbox-min.js"></script>
     %endif
-    %if colorbox_locales[lang]:
-        <script src="/assets/js/colorbox-i18n/jquery.colorbox-${colorbox_locales[lang]}.js"></script>
-    %endif
+    <%doc>
+    % if colorbox_locales[lang]:
+        <!-- script src="/assets/js/colorbox-i18n/jquery.colorbox-${colorbox_locales[lang]}.js"></script -->
+    % endif
+    </%doc>
     ${social_buttons_code}
 </%def>
 
