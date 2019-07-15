@@ -9,7 +9,8 @@ ${base.html_headstart()}
 ${template_hooks['extra_head']()}
 </head>
     <body class="no-trans txlive">
-% if permalink is not UNDEFINED and permalink == u'/index.html':
+        <!-- ${permalink} -->
+% if permalink is not UNDEFINED and permalink == '/':
         <%include file="front_page.html"/>
 % else:
         <div class="scrollToTop"><a href="#" title="Scroll to top"><i class="fa fa-fw fa-arrow-up fa-lg"></i></a></div>
@@ -64,22 +65,22 @@ ${template_hooks['extra_head']()}
                 </div>
             </div>
         </header>
-% if permalink is not UNDEFINED and permalink.startswith(u'/blog/index'):
-        <div class="blog-heading">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                        <h1>Reflections and Projections</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-% elif post is not UNDEFINED and post:
+% if post is not UNDEFINED and post:
         <div class="post-heading" style="background-image: url(${post.meta('previewimage')})">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                         <h1>${post.meta('title')}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+% elif permalink is not UNDEFINED and permalink.startswith(u'/blog/'):
+        <div class="blog-heading">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <h1>Reflections and Projections</h1>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,6 @@
+.doit.db.db
+.venv
+__pycache__
+cache
+output
+themes/bootstrap3

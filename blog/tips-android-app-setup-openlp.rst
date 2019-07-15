@@ -16,29 +16,34 @@ documentation <http://manual.openlp.org/configure.html#remote>`_ and
 also info for the `Android
 app <http://manual.openlp.org/android.html#android>`_.
 
-**Networking Basics**
+Networking Basics
+-----------------
 
 Before we get to the tips, we need to be sure have a good understanding
 of some basic networking terms.
 
-**IP Address:** This is the unique number that is given to a computer on
-a network. Think of this as a street address of a house. On most local
-networks It will look something like this: 192.168.1.100.
+**IP Address**
+  This is the unique number that is given to a computer on
+  a network. Think of this as a street address of a house. On most local
+  networks It will look something like this: 192.168.1.100.
 
-**LAN:** Local Area Network, this is the local network. If you have a
-typical home setup with a modem and a wireless router the wireless
-router connects all the computers and assings IP addresses on the LAN.
-Many users have confused the LAN with the internet. A LAN doesn not have
-to be connected to the internet at all, it simply provides a way for
-several close by computers to communicate. A LAN is all that is needed
-for the remote feature of OpenLP to work.
+**LAN**
+  Local Area Network, this is the local network. If you have a
+  typical home setup with a modem and a wireless router the wireless
+  router connects all the computers and assings IP addresses on the LAN.
+  Many users have confused the LAN with the internet. A LAN doesn not have
+  to be connected to the internet at all, it simply provides a way for
+  several close by computers to communicate. A LAN is all that is needed
+  for the remote feature of OpenLP to work.
 
-**WiFi:** this is the means that you connect to a Local network
-wirelessly. Again, this does not mean you are connected to the internet.
+**WiFi**
+  this is the means that you connect to a Local network
+  wirelessly. Again, this does not mean you are connected to the internet.
 
 Now, to the tips...
 
-**Get on the Same Network**
+Get on the Same Network
+-----------------------
 
 Many people use the Android app on their mobile phone. One of the most
 common issues I have ran into when someone is running the remote app is
@@ -46,7 +51,8 @@ they are not on the network that the OpenLP machine is on. For most
 setups this means you need to be on the same WiFi network that the
 OpenLP machine is on.
 
-**Connect to the Correct IP Address **
+Connect to the Correct IP Address
+---------------------------------
 
 Most networks use
 `DHCP <http://en.wikipedia.org/wiki/Dynamic_Host_Configuration_Protocol>`_
@@ -63,12 +69,14 @@ your OpenLP computer if you know its
 device by using an app such as
 `eZNetScan <https://play.google.com/store/apps/details?id=com.vrsspl.eznetscan&hl=en>`_.
 
-**Be Sure to Apply Your Settings**
+Be Sure to Apply Your Settings
+------------------------------
 
 If you need to change your IP address on the Android app be sure to tap
 the Activate button to activate the changes. 
 
-**Consider a Static IP Address**
+Consider a Static IP Address
+----------------------------
 
 A static IP address will help keep you from having a lot of these
 issues. This may not always be possible, another way to achieve
