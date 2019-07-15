@@ -29,14 +29,15 @@ test:
 deploy:
   stage: deploy
   script:
+  - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+  - eval $(ssh-agent -s)
+  - ssh-add ~/.ssh/id_rsa
+  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   - nikola theme -i bootstrap3
   - nikola build
-  - cd output
-  - echo "$STRIPE_API_KEY" > stripe.ini
-  - eval $(ssh-agent -s)
-  - ssh-add <(echo "$SSH_PRIVATE_KEY")
   - mkdir -p ~/.ssh
-  - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
+  - echo "$STRIPE_API_KEY" > stripe.ini
+  - cd output
   - scp -r * openlp@openlp.org:public_html/
   only:
   - master
