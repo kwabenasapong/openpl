@@ -33,7 +33,7 @@ deploy:
   - nikola build
   - cd output
   - echo "$STRIPE_API_KEY" > stripe.ini
-  - ssh-add <(echo "$SSH_PRIVATE_KEY")
+  - ssh-add < echo "$SSH_PRIVATE_KEY"
   - mkdir -p ~/.ssh
   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
   - scp -r * openlp@openlp.org:public_html/
