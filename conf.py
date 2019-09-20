@@ -176,11 +176,11 @@ DATE_FORMAT = 'EEE d MMM, y'
 #
 
 POSTS = (
-            ("blog/*.rst", "blog", "post.tmpl"),
-        )
+    ("blog/*.rst", "blog", "post.tmpl"),
+)
 PAGES = (
-            ("pages/*.rst", "", "story.tmpl"),
-        )
+    ("pages/*.rst", "", "story.tmpl"),
+)
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".
@@ -769,6 +769,11 @@ USE_BUNDLES = False
 # For example, the `plugins` directory of your clone of the Nikola plugins
 # repository.
 # EXTRA_PLUGINS_DIRS = []
+
+# Add the absolute paths to directories containing themes to use them.
+# For example, the `v7` directory of your clone of the Nikola themes
+# repository.
+# EXTRA_THEMES_DIRS = [os.path.join(os.path.abspath(os.path.dirname(__file__)), 'themes')]
 
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"

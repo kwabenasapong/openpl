@@ -1,6 +1,0 @@
-*.tar.gz
-*.db
-cache
-output
-nikola
-stripe.ini

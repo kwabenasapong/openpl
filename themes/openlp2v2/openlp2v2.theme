@@ -1,0 +1,7 @@
+[Theme]
+engine = mako
+parent = base
+author = OpenLP Developers
+author_url = https://openlp.org/
+license = MIT
+tags = openlp
