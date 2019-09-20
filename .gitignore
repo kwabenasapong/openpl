@@ -1,6 +1,10 @@
-.doit.db.db
+*.db
+*.tar.gz
 .venv
 __pycache__
 cache
 output
 themes/bootstrap3
+venv
+nikola
+stripe.ini
