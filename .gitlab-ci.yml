@@ -19,4 +19,4 @@ deploy:
   - cd output
   - scp -r * openlp@openlp.org:public_html/
   only:
-  - master
+  - master@openlp/website
