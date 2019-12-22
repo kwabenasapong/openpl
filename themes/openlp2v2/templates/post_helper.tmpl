@@ -85,7 +85,8 @@
 </%def>
 
 <%def name="mathjax_script(post)">
-    %if post.has_math:
+    <% has_math = getattr(post, 'has_math', False) %>
+    %if has_math:
         <script type="text/x-mathjax-config">
         MathJax.Hub.Config({tex2jax: {inlineMath: [['$latex ','$'], ['\\(','\\)']]}});</script>
         <script src="/assets/js/mathjax.js"></script>
