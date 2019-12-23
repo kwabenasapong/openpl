@@ -139,10 +139,11 @@ Linux:
 ~~~~~~
 .. raw:: html
 
-   <a href="https://get.openlp.org/2.9.0/openlp_2.9.0-1_all.deb" class="btn btn-ubuntu"><img src="/images/ubuntu-logo.png" class="icon notranslate"> Ubuntu</a>
-   <a href="https://get.openlp.org/2.9.0/openlp_2.9.0-1_all.deb" class="btn btn-debian"><img src="/images/debian-logo.png" class="icon notranslate"> Debian</a>
-   &nbsp;&nbsp;&nbsp;Fedora coming soon!
+   <a href="https://copr.fedorainfracloud.org/coprs/trb143/OpenLP/" class="btn btn-fedora"><img src="/images/fedora-logo.png" class="icon notranslate"> Fedora</a>
+   &nbsp;&nbsp;&nbsp;(Debian &amp; Ubuntu downloads unavailable at the moment)
 
+..   <a href="https://get.openlp.org/2.9.0/openlp_2.9.0-1_all.deb" class="btn btn-ubuntu"><img src="/images/ubuntu-logo.png" class="icon notranslate"> Ubuntu</a>
+..   <a href="https://get.openlp.org/2.9.0/openlp_2.9.0-1_all.deb" class="btn btn-debian"><img src="/images/debian-logo.png" class="icon notranslate"> Debian</a>
 ..   <a href="https://get.openlp.org/2.9.0/Openlp-2.9.0.dmg" class="btn btn-fedora"><img src="/images/fedora-logo.png" class="icon notranslate"> Fedora</a>
 ..   <a href="https://get.openlp.org/2.9.0/Openlp-2.9.0.dmg" class="btn btn-arch"><img src="/images/archlinux-logo.png" class="icon notranslate"> Arch</a>
 
