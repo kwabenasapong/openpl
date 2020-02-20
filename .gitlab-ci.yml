@@ -20,3 +20,14 @@ deploy:
   - scp -r * openlp@openlp.org:public_html/
   only:
   - master@openlp/website
+
+pages:
+  script:
+  - nikola theme -i bootstrap3
+  - nikola build
+  - mv build public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master@openlp/website
