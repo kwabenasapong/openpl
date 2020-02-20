@@ -25,7 +25,7 @@ pages:
   script:
   - nikola theme -i bootstrap3
   - nikola build
-  - mv build public
+  - mv output public
   artifacts:
     paths:
     - public
