@@ -1,33 +1,25 @@
 image: alpine
 
 before_script:
-- apk --no-cache add make openssh-client py3-setuptools python3-dev py3-pillow py3-lxml
-- python3 -m pip install nikola
+  - apk --no-cache add make openssh-client py3-setuptools py3-pip python3-dev py3-pillow py3-lxml
+  - pip3 install nikola
+  - nikola theme -i bootstrap3
 
-# deploy:
-#   stage: deploy
-#   script:
-#   - mkdir -p ~/.ssh
-#   - echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-#   - chmod 600 ~/.ssh/id_rsa
-#   - eval $(ssh-agent -s)
-#   - ssh-add ~/.ssh/id_rsa
-#   - '[[ -f /.dockerenv ]] && echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config'
-#   - nikola theme -i bootstrap3
-#   - nikola build
-#   - echo "$STRIPE_API_KEY" > stripe.ini
-#   - cd output
-#   - scp -r * openlp@openlp.org:public_html/
-#   only:
-#   - master@openlp/website
+build:
+  stage: build
+  script:
+    - nikola build
+    - mv output public
+  artifacts:
+    paths:
+      - public
 
 pages:
   script:
-  - nikola theme -i bootstrap3
-  - nikola build
-  - mv output public
+    - nikola build
+    - mv output public
   artifacts:
     paths:
-    - public
+      - public
   only:
-  - master@openlp/website
+    - master@openlp/website
