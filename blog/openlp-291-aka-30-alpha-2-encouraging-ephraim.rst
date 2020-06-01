@@ -1,4 +1,4 @@
-.. title: OpenLP 2.9.1 aka 3.0 Alpha 2 - Encouraging Ephraim
+.. title: OpenLP 2.9.1 aka 3.0 Alpha 2 - Encouraging Ephraim [UPDATED]
 .. slug: 2020/05/31/openlp-291-aka-30-alpha-2-encouraging-ephraim
 .. date: 2020-05-31 14:00:00 UTC
 .. tags: 
@@ -12,13 +12,7 @@ It has been a few months since the first alpha release and now the time has come
 to have implemented most of the new features that will be in the upcoming 3.0 release, so the next release will be a
 beta release, marking the shift to focus on bugfixes and stability.
 
-Do note that this is an alpha release and as such it is not suitable for "production use". There will be serious bugs.
-There will be crashes. There is a high risk of data loss. That being said, we hope you will test this release and
-report any findings to the forums or issue tracker. It is recommended to use the portable build/mode (download the
-portable build for Windows, or use the -p command line argument on Linux or macOS) if you do not want to affect
-existing install.
-
-**Release highlights:**
+**Release Highlights**
 
 * Fixed planning center plugin
 * New service file format (faster loading of presentations from service file)
@@ -28,14 +22,52 @@ existing install.
 * Changes to internals which improve the start up time 
 * Tons of bugfixes.
 
+Do note that this is an alpha release and as such it is not suitable for "production use". There will be serious bugs.
+There will be crashes. There is a high risk of data loss. That being said, we hope you will test this release and
+report any findings to the forums or issue tracker. It is recommended to use the portable build/mode (download the
+portable build for Windows, or use the -p command line argument on Linux or macOS) if you do not want to affect
+existing install.
+
 
     Have I not commanded you? Be strong and courageous. Do not be frightened, and do not be dismayed, for the Lord your
     God is with you wherever you go.
 
     Joshua 1:9 ESV
 
+**Download**
 
-Full changelog:
+.. raw:: html
+
+   <div class="text-center" style="margin-bottom: 2em">
+    <div class="btn-group">
+      <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <i class="fa fa-windows"></i>
+        Windows
+        &nbsp;
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a href="https://get.openlp.org/2.9.1/OpenLP-2.9.1-x64.msi">64-bit Installer</a></li>
+        <li><a href="https://get.openlp.org/2.9.1/OpenLPPortable_2.9.1.0-x64.paf.exe">64-bit Portable</a></li>
+        <li><a href="https://get.openlp.org/2.9.1/OpenLP-2.9.1.msi">32-bit Installer</a></li>
+        <li><a href="https://get.openlp.org/2.9.1/OpenLPPortable_2.9.1.0-x86.paf.exe">32-bit Portable</a></li>
+      </ul>
+    </div>
+    <a class="btn btn-default" href="https://get.openlp.org/2.9.1/OpenLP-2.9.1.dmg"><i class="fa fa-apple"></i> macOS 10.12+</a>
+    <a class="btn btn-ubuntu" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Coming soon!">
+      <img class="icon notranslate" src="/images/ubuntu-logo.png"/> Ubuntu
+    </a>
+    <a class="btn btn-debian" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Coming soon!">
+      <img class="icon notranslate" src="/images/debian-logo.png"/> Debian
+    </a>
+    <a class="btn btn-fedora" href="https://copr.fedorainfracloud.org/coprs/trb143/OpenLP/">
+      <img class="icon notranslate" src="/images/fedora-logo.png"/> Fedora
+    </a>
+    <a class="btn btn-success" href="https://get.openlp.org/2.9.1/OpenLP-2.9.1.tar.gz"><i class="fa fa-file-archive-o"></i> Source</a>
+   </div>
+
+
+**Full Change Log**
 
 * Remove a traceback on exiting OpenLP
 * Add back toolbar separator

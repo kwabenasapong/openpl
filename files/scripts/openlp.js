@@ -94,4 +94,5 @@ $(document).ready(function () {
     displaySuccess();
     setUpStripe();
   }
+  $('[data-toggle="tooltip"]').tooltip()
 });
