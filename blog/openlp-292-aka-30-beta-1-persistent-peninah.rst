@@ -62,11 +62,13 @@ Downloads
         <li><a href="https://get.openlp.org/2.9.2/OpenLPPortable_2.9.2.0-x86.paf.exe">32-bit Portable</a></li>
       </ul>
     </div>
-    <a class="btn btn-default" href="https://get.openlp.org/2.9.2/OpenLP-2.9.2.dmg"><i class="fa fa-apple"></i> macOS 10.12+</a>
-    <a class="btn btn-ubuntu" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Coming soon!">
+    <a class="btn btn-default" href="https://get.openlp.org/2.9.2/OpenLP-2.9.2.dmg">
+      <i class="fa fa-apple"></i> macOS 10.12+
+    </a>
+    <a class="btn btn-ubuntu" href="https://get.openlp.org/2.9.2/openlp_2.9.2-1_all.deb">
       <img class="icon notranslate" src="/images/ubuntu-logo.png"/> Ubuntu
     </a>
-    <a class="btn btn-debian" href="javascript:void(0);" data-toggle="tooltip" data-placement="top" title="Coming soon!">
+    <a class="btn btn-debian" href="https://get.openlp.org/2.9.2/openlp_2.9.2-1_all.deb">
       <img class="icon notranslate" src="/images/debian-logo.png"/> Debian
     </a>
     <a class="btn btn-fedora" href="https://copr.fedorainfracloud.org/coprs/trb143/OpenLP/">
@@ -98,3 +100,6 @@ Other notable changes and bug fixes
 * Various alpha2 fixes 
 * Update API definition 
 * Settings cleanup
+
+.. _debug log file: https://manual.openlp.org/troubleshooting.html#i-have-been-asked-to-email-a-debug-log-where-do-i-find-this
+.. _make a backup: https://manual.openlp.org/backing_up.html
