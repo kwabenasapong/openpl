@@ -6,7 +6,7 @@
 .. link: 
 .. description: 
 .. type: text
-.. previewimage: /cover/openlp-292-aka-30-beta-1-persistent-peninah.jpg
+.. previewimage: /cover-images/openlp-292-aka-30-beta-1-persistent-peninah.jpg
 
 As the song says "Come now is the time to - test a new version of OpenLP!"
 
