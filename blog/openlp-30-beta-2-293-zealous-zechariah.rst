@@ -1,4 +1,4 @@
-.. title: OpenLP 3.0 Beta 2 (2.9.3) Zealous Zechariah
+.. title: OpenLP 3.0 Beta 2 (2.9.3) Zealous Zechariah [UPDATED]
 .. slug: 2021/09/05/openlp-30-beta-2-293-zealous-zechariah
 .. date: 2021-09-05 12:00:00 UTC
 .. tags: 
@@ -8,13 +8,21 @@
 .. type: text
 .. previewimage: /cover-images/openlp-30-beta-2-293-zealous-zechariah.jpg
 
+.. warning::
+
+   It appears that a bug crept in at the last minute, which prevents Bibles and Images from being added to the service.
+   If you currently use either of these features, please stick with either the previous beta release, or with version
+   2.4.6, which is the most current stable release. We hope to have a new release of OpenLP in a few weeks with this
+   bug (and a few more) ironed out.
+
+
 Yes! It's finally here! The second beta release of OpenLP 3.0 is available for download immediately.
 Go and get it while it's hot!
 
 From here on out, we will only be fixing bugs and making release candidates in an effort to get
 version 3.0 out the door.
 
-.. warning::
+.. tip::
 
    Installing this version of OpenLP will override any other installation of OpenLP you already
    have. Please `make a backup`_ of your data!
