@@ -109,12 +109,17 @@ div.product-chooser div.product-chooser-item input{
 }
 
 #download-section > div {
-    height: 200px;
+    height: 280px;
     text-align: center;
 }
 
-#download-section div p,
-#download-section div h4 {
+#download-section > div > div > div {
+  margin: 0 0 10px;
+}
+
+#download-section > div > div > div,
+#download-section > div > div > p,
+#download-section > div > div > h4 {
     margin-top: 1.2em;
 }
 
